@@ -1,0 +1,189 @@
+{
+  "cells": [
+    {
+      "cell": "ACC/TP53",
+      "base_auroc": 0.7159,
+      "meanvar_auroc": 0.7102,
+      "delta": -0.0057
+    },
+    {
+      "cell": "ACC/CTNNB1",
+      "base_auroc": 0.7027,
+      "meanvar_auroc": 0.6047,
+      "delta": -0.098
+    },
+    {
+      "cell": "ACC/TMB-high",
+      "base_auroc": 0.6533,
+      "meanvar_auroc": 0.5733,
+      "delta": -0.08
+    },
+    {
+      "cell": "ACC/FGA-high",
+      "base_auroc": 0.3966,
+      "meanvar_auroc": 0.4564,
+      "delta": 0.0598
+    },
+    {
+      "cell": "ACC/Immune C4",
+      "base_auroc": 0.6691,
+      "meanvar_auroc": 0.5706,
+      "delta": -0.0985
+    },
+    {
+      "cell": "UVM/GNAQ",
+      "base_auroc": 0.4881,
+      "meanvar_auroc": 0.4844,
+      "delta": -0.0037
+    },
+    {
+      "cell": "UVM/GNA11",
+      "base_auroc": 0.5253,
+      "meanvar_auroc": 0.5347,
+      "delta": 0.0094
+    },
+    {
+      "cell": "UVM/SF3B1",
+      "base_auroc": 0.6541,
+      "meanvar_auroc": 0.7151,
+      "delta": 0.061
+    },
+    {
+      "cell": "UVM/BAP1",
+      "base_auroc": 0.6486,
+      "meanvar_auroc": 0.6048,
+      "delta": -0.0438
+    },
+    {
+      "cell": "UVM/EIF1AX",
+      "base_auroc": 0.8171,
+      "meanvar_auroc": 0.7943,
+      "delta": -0.0228
+    },
+    {
+      "cell": "UVM/Chr3 loss",
+      "base_auroc": 0.7942,
+      "meanvar_auroc": 0.7988,
+      "delta": 0.0046
+    },
+    {
+      "cell": "UVM/Immune C4",
+      "base_auroc": 0.4863,
+      "meanvar_auroc": 0.5143,
+      "delta": 0.028
+    },
+    {
+      "cell": "MESO/Histology epi",
+      "base_auroc": 0.5547,
+      "meanvar_auroc": 0.4771,
+      "delta": -0.0776
+    },
+    {
+      "cell": "MESO/NF2",
+      "base_auroc": 0.4025,
+      "meanvar_auroc": 0.3782,
+      "delta": -0.0243
+    },
+    {
+      "cell": "MESO/BAP1",
+      "base_auroc": 0.5328,
+      "meanvar_auroc": 0.5105,
+      "delta": -0.0223
+    },
+    {
+      "cell": "MESO/TP53",
+      "base_auroc": 0.6135,
+      "meanvar_auroc": 0.4521,
+      "delta": -0.1614
+    },
+    {
+      "cell": "MESO/CDKN2A homdel",
+      "base_auroc": 0.5289,
+      "meanvar_auroc": 0.5924,
+      "delta": 0.0635
+    },
+    {
+      "cell": "MESO/Immune C1",
+      "base_auroc": 0.6667,
+      "meanvar_auroc": 0.6611,
+      "delta": -0.0056
+    },
+    {
+      "cell": "CHOL/IDH1",
+      "base_auroc": 0.8412,
+      "meanvar_auroc": 0.7235,
+      "delta": -0.1177
+    },
+    {
+      "cell": "CHOL/Immune C3",
+      "base_auroc": 0.4739,
+      "meanvar_auroc": 0.5882,
+      "delta": 0.1143
+    },
+    {
+      "cell": "KICH/TP53",
+      "base_auroc": 0.6791,
+      "meanvar_auroc": 0.5887,
+      "delta": -0.0904
+    },
+    {
+      "cell": "KICH/Aneuploidy-high",
+      "base_auroc": 0.6544,
+      "meanvar_auroc": 0.5233,
+      "delta": -0.1311
+    },
+    {
+      "cell": "KICH/Immune C3",
+      "base_auroc": 0.4854,
+      "meanvar_auroc": 0.4396,
+      "delta": -0.0458
+    },
+    {
+      "cell": "KICH/MSI-H",
+      "base_auroc": 0.3869,
+      "meanvar_auroc": 0.4137,
+      "delta": 0.0268
+    },
+    {
+      "cell": "DLBC/MSI-H",
+      "base_auroc": 0.9394,
+      "meanvar_auroc": 0.9008,
+      "delta": -0.0386
+    },
+    {
+      "cell": "DLBC/TMB-high",
+      "base_auroc": 0.6037,
+      "meanvar_auroc": 0.5556,
+      "delta": -0.0481
+    },
+    {
+      "cell": "DLBC/Hans non-GCB",
+      "base_auroc": 0.5602,
+      "meanvar_auroc": 0.515,
+      "delta": -0.0452
+    },
+    {
+      "cell": "DLBC/MYD88",
+      "base_auroc": 0.7897,
+      "meanvar_auroc": 0.7795,
+      "delta": -0.0102
+    },
+    {
+      "cell": "DLBC/Aneuploidy-high",
+      "base_auroc": 0.6823,
+      "meanvar_auroc": 0.7143,
+      "delta": 0.032
+    },
+    {
+      "cell": "DLBC/TP53",
+      "base_auroc": 0.6636,
+      "meanvar_auroc": 0.7636,
+      "delta": 0.1
+    }
+  ],
+  "n_cells": 30,
+  "n_improved_gt_0.02": 8,
+  "fraction_improved": 0.267,
+  "promotion_criterion_met": false,
+  "note": "THYM excluded (patches on Modal Volume; mean+var would require Modal re-pool)"
+}

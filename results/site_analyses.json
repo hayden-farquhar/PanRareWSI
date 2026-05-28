@@ -1,0 +1,42 @@
+[
+  {
+    "cell": "THYM/GTF2I",
+    "base_auroc": 0.9333,
+    "chi2_p": 0.0321,
+    "s7_site_aware_auroc": 0.936,
+    "s7_delta": 0.0027,
+    "s8_site_covariate_auroc": 0.9338,
+    "s8_delta": 0.0005,
+    "s7_confound_flag": false
+  },
+  {
+    "cell": "KICH/TP53",
+    "base_auroc": 0.6791,
+    "chi2_p": 0.00019,
+    "s7_site_aware_auroc": 0.6986,
+    "s7_delta": 0.0195,
+    "s8_site_covariate_auroc": 0.665,
+    "s8_delta": -0.0141,
+    "s7_confound_flag": false
+  },
+  {
+    "cell": "DLBC/MSI-H",
+    "base_auroc": 0.9394,
+    "chi2_p": 4e-05,
+    "s7_site_aware_auroc": 0.9201,
+    "s7_delta": -0.0193,
+    "s8_site_covariate_auroc": 0.9394,
+    "s8_delta": -0.0,
+    "s7_confound_flag": false
+  },
+  {
+    "cell": "DLBC/MYD88",
+    "base_auroc": 0.7897,
+    "chi2_p": 0.01367,
+    "s7_site_aware_auroc": 0.7897,
+    "s7_delta": 0.0,
+    "s8_site_covariate_auroc": 0.9333,
+    "s8_delta": 0.1436,
+    "s7_confound_flag": false
+  }
+]

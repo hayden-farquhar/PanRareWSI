@@ -1,0 +1,556 @@
+{
+  "threshold_0.6": {
+    "recoverable": 5,
+    "inconclusive": 4,
+    "not_recoverable": 19
+  },
+  "threshold_0.65": {
+    "recoverable": 5,
+    "inconclusive": 4,
+    "not_recoverable": 19
+  },
+  "threshold_0.7": {
+    "recoverable": 5,
+    "inconclusive": 4,
+    "not_recoverable": 19
+  },
+  "threshold_change_0.60_to_0.70": {
+    "changed": 0,
+    "total": 28,
+    "fraction": 0.0,
+    "threshold_sensitive": false
+  },
+  "tripartite_classification": {
+    "ACC/TP53": "inconclusive",
+    "ACC/CTNNB1": "not_recoverable",
+    "ACC/TMB-high": "not_recoverable",
+    "ACC/FGA-high": "not_recoverable",
+    "ACC/Immune C4": "not_recoverable",
+    "UVM/GNAQ": "not_recoverable",
+    "UVM/GNA11": "not_recoverable",
+    "UVM/SF3B1": "inconclusive",
+    "UVM/BAP1": "not_recoverable",
+    "UVM/EIF1AX": "recoverable",
+    "UVM/Chr3 loss": "recoverable",
+    "UVM/Immune C4": "not_recoverable",
+    "MESO/Histology epi": "not_recoverable",
+    "MESO/NF2": "not_recoverable",
+    "MESO/BAP1": "not_recoverable",
+    "MESO/TP53": "not_recoverable",
+    "MESO/CDKN2A homdel": "not_recoverable",
+    "MESO/Immune C1": "inconclusive",
+    "THYM/GTF2I": "recoverable",
+    "THYM/TMB-high": "recoverable",
+    "KICH/TP53": "inconclusive",
+    "KICH/Aneuploidy-high": "not_recoverable",
+    "KICH/Immune C3": "not_recoverable",
+    "DLBC/MSI-H": "recoverable",
+    "DLBC/TMB-high": "not_recoverable",
+    "DLBC/Hans non-GCB": "not_recoverable",
+    "DLBC/MYD88": "not_recoverable",
+    "DLBC/Aneuploidy-high": "not_recoverable"
+  },
+  "S5_by_fdr": {
+    "n_bh_significant": 5,
+    "n_by_significant": 4,
+    "cells": [
+      {
+        "cell": "ACC/TP53",
+        "p_value": 0.02798600699650175,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "ACC/CTNNB1",
+        "p_value": 0.05847076461769116,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "ACC/TMB-high",
+        "p_value": 0.0633873225354929,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "ACC/FGA-high",
+        "p_value": 0.7802439512097581,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "ACC/Immune C4",
+        "p_value": 0.03719256148770246,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/GNAQ",
+        "p_value": 0.5346930613877224,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/GNA11",
+        "p_value": 0.34382808595702147,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/SF3B1",
+        "p_value": 0.050474762618690654,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/BAP1",
+        "p_value": 0.07796101949025487,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/EIF1AX",
+        "p_value": 0.0023995200959808036,
+        "bh_sig": true,
+        "by_sig": false
+      },
+      {
+        "cell": "UVM/Chr3 loss",
+        "p_value": 0.0009995002498750624,
+        "bh_sig": true,
+        "by_sig": true
+      },
+      {
+        "cell": "UVM/Immune C4",
+        "p_value": 0.526736631684158,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/Histology epi",
+        "p_value": 0.23795240951809637,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/NF2",
+        "p_value": 0.8112377524495101,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/BAP1",
+        "p_value": 0.353129374125175,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/TP53",
+        "p_value": 0.1277744451109778,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/CDKN2A homdel",
+        "p_value": 0.33913217356528697,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "MESO/Immune C1",
+        "p_value": 0.02348825587206397,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "THYM/GTF2I",
+        "p_value": 0.0004997501249375312,
+        "bh_sig": true,
+        "by_sig": true
+      },
+      {
+        "cell": "THYM/TMB-high",
+        "p_value": 0.0004997501249375312,
+        "bh_sig": true,
+        "by_sig": true
+      },
+      {
+        "cell": "KICH/TP53",
+        "p_value": 0.017991004497751123,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "KICH/Aneuploidy-high",
+        "p_value": 0.05547226386806597,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "KICH/Immune C3",
+        "p_value": 0.5372313843078461,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "DLBC/MSI-H",
+        "p_value": 0.0001999600079984003,
+        "bh_sig": true,
+        "by_sig": true
+      },
+      {
+        "cell": "DLBC/TMB-high",
+        "p_value": 0.19816036792641473,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "DLBC/Hans non-GCB",
+        "p_value": 0.28414317136572687,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "DLBC/MYD88",
+        "p_value": 0.03199360127974405,
+        "bh_sig": false,
+        "by_sig": false
+      },
+      {
+        "cell": "DLBC/Aneuploidy-high",
+        "p_value": 0.04619076184763048,
+        "bh_sig": false,
+        "by_sig": false
+      }
+    ]
+  },
+  "S1_pca": [
+    {
+      "cell": "ACC/TP53",
+      "base_auroc": 0.7159,
+      "pca_auroc": 0.7273,
+      "delta": 0.0114
+    },
+    {
+      "cell": "ACC/CTNNB1",
+      "base_auroc": 0.7027,
+      "pca_auroc": 0.6901,
+      "delta": -0.0126
+    },
+    {
+      "cell": "ACC/TMB-high",
+      "base_auroc": 0.6533,
+      "pca_auroc": 0.6533,
+      "delta": 0.0
+    },
+    {
+      "cell": "ACC/FGA-high",
+      "base_auroc": 0.3966,
+      "pca_auroc": 0.6051,
+      "delta": 0.2085
+    },
+    {
+      "cell": "ACC/Immune C4",
+      "base_auroc": 0.6691,
+      "pca_auroc": 0.6191,
+      "delta": -0.05
+    },
+    {
+      "cell": "UVM/GNAQ",
+      "base_auroc": 0.4881,
+      "pca_auroc": 0.475,
+      "delta": -0.0131
+    },
+    {
+      "cell": "UVM/GNA11",
+      "base_auroc": 0.5253,
+      "pca_auroc": 0.5625,
+      "delta": 0.0372
+    },
+    {
+      "cell": "UVM/SF3B1",
+      "base_auroc": 0.6541,
+      "pca_auroc": 0.6514,
+      "delta": -0.0027
+    },
+    {
+      "cell": "UVM/BAP1",
+      "base_auroc": 0.6486,
+      "pca_auroc": 0.4317,
+      "delta": -0.2169
+    },
+    {
+      "cell": "UVM/EIF1AX",
+      "base_auroc": 0.8171,
+      "pca_auroc": 0.7814,
+      "delta": -0.0357
+    },
+    {
+      "cell": "UVM/Chr3 loss",
+      "base_auroc": 0.7942,
+      "pca_auroc": 0.7619,
+      "delta": -0.0323
+    },
+    {
+      "cell": "UVM/Immune C4",
+      "base_auroc": 0.4863,
+      "pca_auroc": 0.5059,
+      "delta": 0.0196
+    },
+    {
+      "cell": "MESO/Histology epi",
+      "base_auroc": 0.5547,
+      "pca_auroc": 0.6111,
+      "delta": 0.0564
+    },
+    {
+      "cell": "MESO/NF2",
+      "base_auroc": 0.4025,
+      "pca_auroc": 0.3549,
+      "delta": -0.0476
+    },
+    {
+      "cell": "MESO/BAP1",
+      "base_auroc": 0.5328,
+      "pca_auroc": 0.4754,
+      "delta": -0.0574
+    },
+    {
+      "cell": "MESO/TP53",
+      "base_auroc": 0.6135,
+      "pca_auroc": 0.4087,
+      "delta": -0.2048
+    },
+    {
+      "cell": "MESO/CDKN2A homdel",
+      "base_auroc": 0.5289,
+      "pca_auroc": 0.5101,
+      "delta": -0.0188
+    },
+    {
+      "cell": "MESO/Immune C1",
+      "base_auroc": 0.6667,
+      "pca_auroc": 0.6429,
+      "delta": -0.0238
+    },
+    {
+      "cell": "CHOL/IDH1",
+      "base_auroc": 0.8412,
+      "pca_auroc": 0.8,
+      "delta": -0.0412
+    },
+    {
+      "cell": "CHOL/Immune C3",
+      "base_auroc": 0.4739,
+      "pca_auroc": 0.5425,
+      "delta": 0.0686
+    },
+    {
+      "cell": "THYM/GTF2I",
+      "base_auroc": 0.9333,
+      "pca_auroc": 0.9295,
+      "delta": -0.0038
+    },
+    {
+      "cell": "THYM/TMB-high",
+      "base_auroc": 0.8282,
+      "pca_auroc": 0.8271,
+      "delta": -0.0011
+    },
+    {
+      "cell": "THYM/HRAS",
+      "base_auroc": 0.829,
+      "pca_auroc": 0.6558,
+      "delta": -0.1732
+    },
+    {
+      "cell": "KICH/TP53",
+      "base_auroc": 0.6791,
+      "pca_auroc": 0.6353,
+      "delta": -0.0438
+    },
+    {
+      "cell": "KICH/Aneuploidy-high",
+      "base_auroc": 0.6544,
+      "pca_auroc": 0.5343,
+      "delta": -0.1201
+    },
+    {
+      "cell": "KICH/Immune C3",
+      "base_auroc": 0.4854,
+      "pca_auroc": 0.5448,
+      "delta": 0.0594
+    },
+    {
+      "cell": "KICH/MSI-H",
+      "base_auroc": 0.3869,
+      "pca_auroc": 0.3079,
+      "delta": -0.079
+    },
+    {
+      "cell": "DLBC/MSI-H",
+      "base_auroc": 0.9394,
+      "pca_auroc": 0.9036,
+      "delta": -0.0358
+    },
+    {
+      "cell": "DLBC/TMB-high",
+      "base_auroc": 0.6037,
+      "pca_auroc": 0.6148,
+      "delta": 0.0111
+    },
+    {
+      "cell": "DLBC/Hans non-GCB",
+      "base_auroc": 0.5602,
+      "pca_auroc": 0.3158,
+      "delta": -0.2444
+    },
+    {
+      "cell": "DLBC/MYD88",
+      "base_auroc": 0.7897,
+      "pca_auroc": 0.8256,
+      "delta": 0.0359
+    },
+    {
+      "cell": "DLBC/Aneuploidy-high",
+      "base_auroc": 0.6823,
+      "pca_auroc": 0.6552,
+      "delta": -0.0271
+    },
+    {
+      "cell": "DLBC/TP53",
+      "base_auroc": 0.6636,
+      "pca_auroc": 0.5231,
+      "delta": -0.1405
+    }
+  ],
+  "S3_loocv": [
+    {
+      "cell": "CHOL/IDH1",
+      "base_auroc": 0.8412,
+      "loocv_auroc": 0.7412,
+      "delta": -0.1
+    },
+    {
+      "cell": "CHOL/Immune C3",
+      "base_auroc": 0.4739,
+      "loocv_auroc": 0.4575,
+      "delta": -0.0164
+    },
+    {
+      "cell": "KICH/TP53",
+      "base_auroc": 0.6791,
+      "loocv_auroc": 0.6813,
+      "delta": 0.0022
+    },
+    {
+      "cell": "KICH/Aneuploidy-high",
+      "base_auroc": 0.6544,
+      "loocv_auroc": 0.5233,
+      "delta": -0.1311
+    },
+    {
+      "cell": "KICH/Immune C3",
+      "base_auroc": 0.4854,
+      "loocv_auroc": 0.4571,
+      "delta": -0.0283
+    },
+    {
+      "cell": "KICH/MSI-H",
+      "base_auroc": 0.3869,
+      "loocv_auroc": 0.2808,
+      "delta": -0.1061
+    },
+    {
+      "cell": "DLBC/MSI-H",
+      "base_auroc": 0.9394,
+      "loocv_auroc": 0.9449,
+      "delta": 0.0055
+    },
+    {
+      "cell": "DLBC/TMB-high",
+      "base_auroc": 0.6037,
+      "loocv_auroc": 0.6778,
+      "delta": 0.0741
+    },
+    {
+      "cell": "DLBC/Hans non-GCB",
+      "base_auroc": 0.5602,
+      "loocv_auroc": 0.4511,
+      "delta": -0.1091
+    },
+    {
+      "cell": "DLBC/MYD88",
+      "base_auroc": 0.7897,
+      "loocv_auroc": 0.7897,
+      "delta": 0.0
+    },
+    {
+      "cell": "DLBC/Aneuploidy-high",
+      "base_auroc": 0.6823,
+      "loocv_auroc": 0.7069,
+      "delta": 0.0246
+    },
+    {
+      "cell": "DLBC/TP53",
+      "base_auroc": 0.6636,
+      "loocv_auroc": 0.6308,
+      "delta": -0.0328
+    }
+  ],
+  "S9_continuous": [
+    {
+      "cell": "ACC/TMB-high",
+      "continuous_var": "tmb",
+      "spearman_r": 0.1747,
+      "spearman_p": 0.20213,
+      "binary_auroc": 0.6533
+    },
+    {
+      "cell": "ACC/FGA-high",
+      "continuous_var": "fga",
+      "spearman_r": 0.3187,
+      "spearman_p": 0.01885,
+      "binary_auroc": 0.3966
+    },
+    {
+      "cell": "THYM/TMB-high",
+      "continuous_var": "tmb",
+      "spearman_r": 0.4846,
+      "spearman_p": 0.0,
+      "binary_auroc": 0.8282
+    },
+    {
+      "cell": "KICH/Aneuploidy-high",
+      "continuous_var": "aneuploidy",
+      "spearman_r": 0.3119,
+      "spearman_p": 0.01144,
+      "binary_auroc": 0.6544
+    },
+    {
+      "cell": "DLBC/TMB-high",
+      "continuous_var": "tmb",
+      "spearman_r": 0.0949,
+      "spearman_p": 0.57637,
+      "binary_auroc": 0.6037
+    },
+    {
+      "cell": "DLBC/Aneuploidy-high",
+      "continuous_var": "aneuploidy",
+      "spearman_r": 0.379,
+      "spearman_p": 0.01221,
+      "binary_auroc": 0.6823
+    }
+  ],
+  "gtf2i_who_confound": {
+    "cramers_v": 0.6013,
+    "n": 124,
+    "interpretation": "confound test triggered (V>0.5)",
+    "within_A+AB_auroc": 0.4614,
+    "within_A+AB_n": 54,
+    "within_A+AB_prevalence": 0.815,
+    "within_B1-B3+TC_auroc": 0.8718,
+    "within_B1-B3+TC_n": 67,
+    "within_B1-B3+TC_prevalence": 0.224
+  }
+}

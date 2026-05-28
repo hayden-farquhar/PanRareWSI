@@ -1,0 +1,20 @@
+[
+  {
+    "cell": "UVM/UVM Histology 3-class",
+    "tier": "primary (positive control)",
+    "macro_auroc": 0.6326,
+    "std_auroc": 0.0927,
+    "n_folds": 5,
+    "n": 80,
+    "n_classes": 3
+  },
+  {
+    "cell": "THYM/THYM WHO subtype",
+    "tier": "primary (positive control)",
+    "macro_auroc": 0.8774,
+    "std_auroc": 0.0212,
+    "n_folds": 5,
+    "n": 121,
+    "n_classes": 6
+  }
+]

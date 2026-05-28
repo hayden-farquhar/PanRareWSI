@@ -1,0 +1,100 @@
+{
+  "seed": 42,
+  "n_folds": 5,
+  "generated_utc": "2026-05-27T05:08:27.133657+00:00",
+  "stratification_targets": {
+    "ACC": "mut_TP53",
+    "UVM": "mut_GNAQ",
+    "MESO": "label_cdkn2a_homdel",
+    "CHOL": "mut_IDH1",
+    "THYM": "mut_GTF2I",
+    "KICH": "mut_TP53",
+    "DLBC": "label_msi_h"
+  },
+  "cohorts": {
+    "ACC": {
+      "n_patients": 93,
+      "stratification_target": "mut_TP53",
+      "sha256_prefix": "14cbe281c6161f2a",
+      "fold_sizes": [
+        19,
+        19,
+        19,
+        18,
+        18
+      ]
+    },
+    "UVM": {
+      "n_patients": 80,
+      "stratification_target": "mut_GNAQ",
+      "sha256_prefix": "32d3d30dd308fbd8",
+      "fold_sizes": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    "MESO": {
+      "n_patients": 87,
+      "stratification_target": "label_cdkn2a_homdel",
+      "sha256_prefix": "921ee8129519163e",
+      "fold_sizes": [
+        18,
+        18,
+        17,
+        17,
+        17
+      ]
+    },
+    "CHOL": {
+      "n_patients": 51,
+      "stratification_target": "mut_IDH1",
+      "sha256_prefix": "b9e95595ff8b722a",
+      "fold_sizes": [
+        11,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "THYM": {
+      "n_patients": 124,
+      "stratification_target": "mut_GTF2I",
+      "sha256_prefix": "341830f4c36c4663",
+      "fold_sizes": [
+        25,
+        25,
+        25,
+        25,
+        24
+      ]
+    },
+    "KICH": {
+      "n_patients": 113,
+      "stratification_target": "mut_TP53",
+      "sha256_prefix": "5d992f45890333de",
+      "fold_sizes": [
+        23,
+        23,
+        23,
+        22,
+        22
+      ]
+    },
+    "DLBC": {
+      "n_patients": 48,
+      "stratification_target": "label_msi_h",
+      "sha256_prefix": "495b0cf305de1326",
+      "fold_sizes": [
+        10,
+        10,
+        10,
+        9,
+        9
+      ]
+    }
+  }
+}

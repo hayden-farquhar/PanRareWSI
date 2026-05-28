@@ -1,0 +1,2507 @@
+[
+  {
+    "cell": "ACC/TP53",
+    "cohort": "ACC",
+    "biomarker": "TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 56,
+    "n_pos": 12,
+    "prevalence": 0.214,
+    "pooled_auroc": 0.7159,
+    "pooled_auprc": 0.4519,
+    "pooled_brier": 0.1698,
+    "auroc_ci": [
+      0.5302,
+      0.8805
+    ],
+    "auprc_ci": [
+      0.2229,
+      0.7388
+    ],
+    "mean_fold_auroc": 0.6621,
+    "std_fold_auroc": 0.2012,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.7083333333333333,
+        "auprc": 0.7666666666666666,
+        "brier": 0.1376821743433896,
+        "n_train": 45,
+        "n_test": 11,
+        "n_pos_test": 3,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6428571428571428,
+        "auprc": 0.3666666666666667,
+        "brier": 0.3253019555942076,
+        "n_train": 47,
+        "n_test": 9,
+        "n_pos_test": 2,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 0.30000000000000004,
+        "auprc": 0.1736111111111111,
+        "brier": 0.16598035790597998,
+        "n_train": 44,
+        "n_test": 12,
+        "n_pos_test": 2,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 0.9090909090909091,
+        "auprc": 0.75,
+        "brier": 0.09370489910011764,
+        "n_train": 43,
+        "n_test": 13,
+        "n_pos_test": 2,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 4,
+        "auroc": 0.75,
+        "auprc": 0.5317460317460317,
+        "brier": 0.1689212768720759,
+        "n_train": 45,
+        "n_test": 11,
+        "n_pos_test": 3,
+        "best_C": 0.3593813663804626
+      }
+    ]
+  },
+  {
+    "cell": "ACC/CTNNB1",
+    "cohort": "ACC",
+    "biomarker": "CTNNB1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 56,
+    "n_pos": 8,
+    "prevalence": 0.143,
+    "pooled_auroc": 0.7027,
+    "pooled_auprc": 0.3152,
+    "pooled_brier": 0.1737,
+    "auroc_ci": [
+      0.4969,
+      0.8721
+    ],
+    "auprc_ci": [
+      0.1599,
+      0.6656
+    ],
+    "mean_fold_auroc": 0.7713,
+    "std_fold_auroc": 0.106,
+    "n_valid_folds": 4,
+    "per_fold": [
+      {
+        "fold": 0,
+        "status": "single_class"
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.6428571428571428,
+        "brier": 0.23035072872596393,
+        "n_train": 47,
+        "n_test": 9,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.8518518518518519,
+        "auprc": 0.8095238095238095,
+        "brier": 0.155173677418978,
+        "n_train": 44,
+        "n_test": 12,
+        "n_pos_test": 3,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 3,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.2,
+        "brier": 0.20632953840459772,
+        "n_train": 43,
+        "n_test": 13,
+        "n_pos_test": 1,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.9,
+        "auprc": 0.5,
+        "brier": 0.1088435577751904,
+        "n_train": 45,
+        "n_test": 11,
+        "n_pos_test": 1,
+        "best_C": 0.005994842503189409
+      }
+    ]
+  },
+  {
+    "cell": "ACC/TMB-high",
+    "cohort": "ACC",
+    "biomarker": "TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 55,
+    "n_pos": 15,
+    "prevalence": 0.273,
+    "pooled_auroc": 0.6533,
+    "pooled_auprc": 0.4558,
+    "pooled_brier": 0.2367,
+    "auroc_ci": [
+      0.4895,
+      0.8267
+    ],
+    "auprc_ci": [
+      0.2514,
+      0.7207
+    ],
+    "mean_fold_auroc": 0.7009,
+    "std_fold_auroc": 0.1199,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.875,
+        "auprc": 0.7555555555555555,
+        "brier": 0.1768193121365672,
+        "n_train": 44,
+        "n_test": 11,
+        "n_pos_test": 3,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 1,
+        "auroc": 0.7777777777777778,
+        "auprc": 0.7222222222222222,
+        "brier": 0.23958412552349198,
+        "n_train": 46,
+        "n_test": 9,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6666666666666666,
+        "auprc": 0.6,
+        "brier": 0.233986763278233,
+        "n_train": 43,
+        "n_test": 12,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.5185185185185185,
+        "auprc": 0.31746031746031744,
+        "brier": 0.23793924720001702,
+        "n_train": 43,
+        "n_test": 12,
+        "n_pos_test": 3,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.6666666666666666,
+        "auprc": 0.6111111111111112,
+        "brier": 0.295704009476267,
+        "n_train": 44,
+        "n_test": 11,
+        "n_pos_test": 3,
+        "best_C": 2.782559402207126
+      }
+    ]
+  },
+  {
+    "cell": "ACC/FGA-high",
+    "cohort": "ACC",
+    "biomarker": "FGA-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 54,
+    "n_pos": 15,
+    "prevalence": 0.278,
+    "pooled_auroc": 0.3966,
+    "pooled_auprc": 0.2581,
+    "pooled_brier": 0.2985,
+    "auroc_ci": [
+      0.215,
+      0.5893
+    ],
+    "auprc_ci": [
+      0.1458,
+      0.4584
+    ],
+    "mean_fold_auroc": 0.4869,
+    "std_fold_auroc": 0.2038,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.11111111111111116,
+        "auprc": 0.15555555555555556,
+        "brier": 0.24063640945536385,
+        "n_train": 43,
+        "n_test": 11,
+        "n_pos_test": 2,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.5,
+        "brier": 0.24367309049069258,
+        "n_train": 45,
+        "n_test": 9,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.65,
+        "auprc": 0.6111111111111112,
+        "brier": 0.19305413108615532,
+        "n_train": 42,
+        "n_test": 12,
+        "n_pos_test": 2,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 3,
+        "auroc": 0.4444444444444444,
+        "auprc": 0.47949735449735453,
+        "brier": 0.5442982142864369,
+        "n_train": 42,
+        "n_test": 12,
+        "n_pos_test": 6,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 4,
+        "auroc": 0.5625,
+        "auprc": 0.30952380952380953,
+        "brier": 0.24313311382912217,
+        "n_train": 44,
+        "n_test": 10,
+        "n_pos_test": 2,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "ACC/Immune C4",
+    "cohort": "ACC",
+    "biomarker": "Immune C4",
+    "tier": "primary",
+    "status": "ok",
+    "n": 54,
+    "n_pos": 34,
+    "prevalence": 0.63,
+    "pooled_auroc": 0.6691,
+    "pooled_auprc": 0.7519,
+    "pooled_brier": 0.2585,
+    "auroc_ci": [
+      0.4916,
+      0.8147
+    ],
+    "auprc_ci": [
+      0.5966,
+      0.8901
+    ],
+    "mean_fold_auroc": 0.6334,
+    "std_fold_auroc": 0.0799,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.5416666666666666,
+        "auprc": 0.7918019480519481,
+        "brier": 0.25063929915612676,
+        "n_train": 43,
+        "n_test": 11,
+        "n_pos_test": 8,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 1,
+        "auroc": 0.75,
+        "auprc": 0.7100000000000001,
+        "brier": 0.16789715555501528,
+        "n_train": 45,
+        "n_test": 9,
+        "n_pos_test": 5,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 0.7037037037037037,
+        "auprc": 0.8870731120731121,
+        "brier": 0.1811255011313109,
+        "n_train": 42,
+        "n_test": 12,
+        "n_pos_test": 9,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 3,
+        "auroc": 0.5714285714285714,
+        "auprc": 0.6239022881880024,
+        "brier": 0.3048050131938475,
+        "n_train": 42,
+        "n_test": 12,
+        "n_pos_test": 7,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 4,
+        "auroc": 0.6000000000000001,
+        "auprc": 0.75,
+        "brier": 0.38582410064728595,
+        "n_train": 44,
+        "n_test": 10,
+        "n_pos_test": 5,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "ACC/MEN1",
+    "status": "insufficient_n",
+    "n": 56,
+    "n_pos": 3,
+    "prevalence": 0.05357142857142857,
+    "tier": "exploratory"
+  },
+  {
+    "cell": "UVM/GNAQ",
+    "cohort": "UVM",
+    "biomarker": "GNAQ",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 40,
+    "prevalence": 0.5,
+    "pooled_auroc": 0.4881,
+    "pooled_auprc": 0.5178,
+    "pooled_brier": 0.4017,
+    "auroc_ci": [
+      0.3611,
+      0.6173
+    ],
+    "auprc_ci": [
+      0.3912,
+      0.6728
+    ],
+    "mean_fold_auroc": 0.4719,
+    "std_fold_auroc": 0.1477,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.40625,
+        "auprc": 0.6056089743589743,
+        "brier": 0.25526304332829985,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.390625,
+        "auprc": 0.4626526251526251,
+        "brier": 0.48131382629041153,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 2,
+        "auroc": 0.765625,
+        "auprc": 0.8203869047619047,
+        "brier": 0.3350828120208559,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 3,
+        "auroc": 0.375,
+        "auprc": 0.4565972222222222,
+        "brier": 0.5047196688466679,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 4,
+        "auroc": 0.421875,
+        "auprc": 0.45979506604506604,
+        "brier": 0.43220997133315964,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 0.046415888336127774
+      }
+    ]
+  },
+  {
+    "cell": "UVM/GNA11",
+    "cohort": "UVM",
+    "biomarker": "GNA11",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 36,
+    "prevalence": 0.45,
+    "pooled_auroc": 0.5253,
+    "pooled_auprc": 0.5207,
+    "pooled_brier": 0.3232,
+    "auroc_ci": [
+      0.4019,
+      0.6542
+    ],
+    "auprc_ci": [
+      0.38,
+      0.6779
+    ],
+    "mean_fold_auroc": 0.5137,
+    "std_fold_auroc": 0.1543,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6507936507936508,
+        "auprc": 0.6605699855699856,
+        "brier": 0.2477089131705203,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 9,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.2909090909090909,
+        "auprc": 0.2825,
+        "brier": 0.2932207291294814,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 5,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 2,
+        "auroc": 0.7142857142857143,
+        "auprc": 0.7444143158428873,
+        "brier": 0.38387917572993685,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 7,
+        "best_C": 1291.5496650148827
+      },
+      {
+        "fold": 3,
+        "auroc": 0.4126984126984127,
+        "auprc": 0.525024975024975,
+        "brier": 0.41775144278209453,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 7,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.5,
+        "auprc": 0.5396367521367521,
+        "brier": 0.27368336268503707,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 0.005994842503189409
+      }
+    ]
+  },
+  {
+    "cell": "UVM/SF3B1",
+    "cohort": "UVM",
+    "biomarker": "SF3B1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 18,
+    "prevalence": 0.225,
+    "pooled_auroc": 0.6541,
+    "pooled_auprc": 0.4325,
+    "pooled_brier": 0.2277,
+    "auroc_ci": [
+      0.5116,
+      0.7967
+    ],
+    "auprc_ci": [
+      0.232,
+      0.6472
+    ],
+    "mean_fold_auroc": 0.6895,
+    "std_fold_auroc": 0.1376,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6727272727272727,
+        "auprc": 0.5658119658119658,
+        "brier": 0.3143879776072268,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 5,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 1,
+        "auroc": 0.641025641025641,
+        "auprc": 0.3611111111111111,
+        "brier": 0.19960271484914355,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 3,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 2,
+        "auroc": 0.4666666666666667,
+        "auprc": 0.1111111111111111,
+        "brier": 0.23555015412674968,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 1,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 3,
+        "auroc": 0.8545454545454545,
+        "auprc": 0.7226190476190476,
+        "brier": 0.19733407371927583,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 5,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 4,
+        "auroc": 0.8125000000000001,
+        "auprc": 0.6488095238095237,
+        "brier": 0.19158681985489448,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 4,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "UVM/BAP1",
+    "cohort": "UVM",
+    "biomarker": "BAP1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 13,
+    "prevalence": 0.163,
+    "pooled_auroc": 0.6486,
+    "pooled_auprc": 0.3277,
+    "pooled_brier": 0.19,
+    "auroc_ci": [
+      0.4643,
+      0.8111
+    ],
+    "auprc_ci": [
+      0.1739,
+      0.5983
+    ],
+    "mean_fold_auroc": 0.6574,
+    "std_fold_auroc": 0.0387,
+    "n_valid_folds": 4,
+    "per_fold": [
+      {
+        "fold": 0,
+        "status": "single_class"
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6,
+        "auprc": 0.14285714285714285,
+        "brier": 0.15326770626981268,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 1,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6666666666666666,
+        "auprc": 0.31666666666666665,
+        "brier": 0.23839236121317925,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.6545454545454545,
+        "auprc": 0.5357142857142857,
+        "brier": 0.20870354991294304,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 5,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "auroc": 0.7083333333333334,
+        "auprc": 0.6007326007326007,
+        "brier": 0.15978009288757575,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 4,
+        "best_C": 2.782559402207126
+      }
+    ]
+  },
+  {
+    "cell": "UVM/EIF1AX",
+    "cohort": "UVM",
+    "biomarker": "EIF1AX",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 10,
+    "prevalence": 0.125,
+    "pooled_auroc": 0.8171,
+    "pooled_auprc": 0.3908,
+    "pooled_brier": 0.1609,
+    "auroc_ci": [
+      0.6396,
+      0.95
+    ],
+    "auprc_ci": [
+      0.1869,
+      0.7537
+    ],
+    "mean_fold_auroc": 0.8037,
+    "std_fold_auroc": 0.1181,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.9230769230769231,
+        "auprc": 0.6388888888888888,
+        "brier": 0.18420409166683488,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 3,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 1,
+        "auroc": 0.9642857142857143,
+        "auprc": 0.8333333333333333,
+        "brier": 0.07991715928802093,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 2,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.16666666666666666,
+        "brier": 0.09436503028183926,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 1,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 3,
+        "auroc": 0.75,
+        "auprc": 0.375,
+        "brier": 0.2144748014850219,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 2,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.7142857142857143,
+        "auprc": 0.26666666666666666,
+        "brier": 0.23141597645242912,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 2,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "UVM/Histology 3-class",
+    "status": "multiclass_deferred",
+    "tier": "primary"
+  },
+  {
+    "cell": "UVM/Chr3 loss",
+    "cohort": "UVM",
+    "biomarker": "Chr3 loss",
+    "tier": "primary",
+    "status": "ok",
+    "n": 52,
+    "n_pos": 31,
+    "prevalence": 0.596,
+    "pooled_auroc": 0.7942,
+    "pooled_auprc": 0.8693,
+    "pooled_brier": 0.1974,
+    "auroc_ci": [
+      0.6545,
+      0.9018
+    ],
+    "auprc_ci": [
+      0.7652,
+      0.9529
+    ],
+    "mean_fold_auroc": 0.8063,
+    "std_fold_auroc": 0.1606,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.05808360164722273,
+        "n_train": 44,
+        "n_test": 8,
+        "n_pos_test": 2,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6122448979591837,
+        "auprc": 0.7279220779220779,
+        "brier": 0.2386120093224595,
+        "n_train": 38,
+        "n_test": 14,
+        "n_pos_test": 7,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 2,
+        "auroc": 0.9444444444444444,
+        "auprc": 0.9888888888888889,
+        "brier": 0.1332066727585072,
+        "n_train": 41,
+        "n_test": 11,
+        "n_pos_test": 9,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 0.625,
+        "auprc": 0.9085317460317461,
+        "brier": 0.3102757364779593,
+        "n_train": 42,
+        "n_test": 10,
+        "n_pos_test": 8,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 4,
+        "auroc": 0.8500000000000001,
+        "auprc": 0.925,
+        "brier": 0.20999404193369842,
+        "n_train": 43,
+        "n_test": 9,
+        "n_pos_test": 5,
+        "best_C": 2.782559402207126
+      }
+    ]
+  },
+  {
+    "cell": "UVM/Immune C4",
+    "cohort": "UVM",
+    "biomarker": "Immune C4",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 48,
+    "prevalence": 0.6,
+    "pooled_auroc": 0.4863,
+    "pooled_auprc": 0.6269,
+    "pooled_brier": 0.3347,
+    "auroc_ci": [
+      0.37,
+      0.6127
+    ],
+    "auprc_ci": [
+      0.4873,
+      0.7699
+    ],
+    "mean_fold_auroc": 0.431,
+    "std_fold_auroc": 0.2066,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.515625,
+        "auprc": 0.5702041014541015,
+        "brier": 0.24811206054926555,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.33333333333333337,
+        "auprc": 0.602472804972805,
+        "brier": 0.5202904075585346,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 10,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 0.796875,
+        "auprc": 0.8624999999999999,
+        "brier": 0.24831297697650528,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 3,
+        "auroc": 0.23636363636363633,
+        "auprc": 0.6052602700329973,
+        "brier": 0.39573533554975066,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 11,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.2727272727272727,
+        "auprc": 0.6486224633951907,
+        "brier": 0.26111981714641874,
+        "n_train": 64,
+        "n_test": 16,
+        "n_pos_test": 11,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "MESO/Histology epi",
+    "cohort": "MESO",
+    "biomarker": "Histology epi",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 51,
+    "prevalence": 0.68,
+    "pooled_auroc": 0.5547,
+    "pooled_auprc": 0.6896,
+    "pooled_brier": 0.2473,
+    "auroc_ci": [
+      0.3966,
+      0.715
+    ],
+    "auprc_ci": [
+      0.5661,
+      0.8396
+    ],
+    "mean_fold_auroc": 0.6251,
+    "std_fold_auroc": 0.1779,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6527777777777779,
+        "auprc": 0.8249451936951937,
+        "brier": 0.24407288112973577,
+        "n_train": 57,
+        "n_test": 18,
+        "n_pos_test": 12,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.7454545454545455,
+        "auprc": 0.8704646363737273,
+        "brier": 0.2383347461123702,
+        "n_train": 59,
+        "n_test": 16,
+        "n_pos_test": 11,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.4523809523809524,
+        "auprc": 0.595063666492238,
+        "brier": 0.26595039735925496,
+        "n_train": 62,
+        "n_test": 13,
+        "n_pos_test": 7,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 3,
+        "auroc": 0.39999999999999997,
+        "auprc": 0.623077848077848,
+        "brier": 0.26144413552763857,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 9,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "auroc": 0.875,
+        "auprc": 0.9790695415695417,
+        "brier": 0.23018200429604516,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 12,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "MESO/NF2",
+    "cohort": "MESO",
+    "biomarker": "NF2",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 16,
+    "prevalence": 0.213,
+    "pooled_auroc": 0.4025,
+    "pooled_auprc": 0.1803,
+    "pooled_brier": 0.2453,
+    "auroc_ci": [
+      0.2722,
+      0.5415
+    ],
+    "auprc_ci": [
+      0.1059,
+      0.2898
+    ],
+    "mean_fold_auroc": 0.2698,
+    "std_fold_auroc": 0.1286,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.17777777777777776,
+        "auprc": 0.13472222222222222,
+        "brier": 0.2510226975365117,
+        "n_train": 57,
+        "n_test": 18,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.0714285714285714,
+        "auprc": 0.10238095238095238,
+        "brier": 0.1445155735775297,
+        "n_train": 59,
+        "n_test": 16,
+        "n_pos_test": 2,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 2,
+        "auroc": 0.39999999999999997,
+        "auprc": 0.24523809523809526,
+        "brier": 0.37353702682678835,
+        "n_train": 62,
+        "n_test": 13,
+        "n_pos_test": 3,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 3,
+        "auroc": 0.4,
+        "auprc": 0.3005952380952381,
+        "brier": 0.2333078960346151,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 4,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "auroc": 0.3,
+        "auprc": 0.252518315018315,
+        "brier": 0.24602214713983864,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 4,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "MESO/BAP1",
+    "cohort": "MESO",
+    "biomarker": "BAP1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 14,
+    "prevalence": 0.187,
+    "pooled_auroc": 0.5328,
+    "pooled_auprc": 0.2446,
+    "pooled_brier": 0.2045,
+    "auroc_ci": [
+      0.3661,
+      0.701
+    ],
+    "auprc_ci": [
+      0.1311,
+      0.4879
+    ],
+    "mean_fold_auroc": 0.6853,
+    "std_fold_auroc": 0.2369,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.8823529411764706,
+        "auprc": 0.3333333333333333,
+        "brier": 0.23260500312900748,
+        "n_train": 57,
+        "n_test": 18,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.375,
+        "auprc": 0.23664529914529914,
+        "brier": 0.2433195520371935,
+        "n_train": 59,
+        "n_test": 16,
+        "n_pos_test": 4,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 2,
+        "auroc": 0.8636363636363636,
+        "auprc": 0.7,
+        "brier": 0.09083776600314918,
+        "n_train": 62,
+        "n_test": 13,
+        "n_pos_test": 2,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 3,
+        "auroc": 0.4166666666666667,
+        "auprc": 0.20192307692307693,
+        "brier": 0.19532992203314808,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 2,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.888888888888889,
+        "auprc": 0.8583333333333332,
+        "brier": 0.23866728975332643,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 5,
+        "best_C": 0.3593813663804626
+      }
+    ]
+  },
+  {
+    "cell": "MESO/TP53",
+    "cohort": "MESO",
+    "biomarker": "TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 12,
+    "prevalence": 0.16,
+    "pooled_auroc": 0.6135,
+    "pooled_auprc": 0.2803,
+    "pooled_brier": 0.2002,
+    "auroc_ci": [
+      0.4428,
+      0.7857
+    ],
+    "auprc_ci": [
+      0.1548,
+      0.5406
+    ],
+    "mean_fold_auroc": 0.6494,
+    "std_fold_auroc": 0.1253,
+    "n_valid_folds": 4,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6071428571428572,
+        "auprc": 0.5056818181818181,
+        "brier": 0.17461581728332917,
+        "n_train": 57,
+        "n_test": 18,
+        "n_pos_test": 4,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 1,
+        "status": "single_class"
+      },
+      {
+        "fold": 2,
+        "auroc": 0.5,
+        "auprc": 0.2111111111111111,
+        "brier": 0.23226440542789178,
+        "n_train": 62,
+        "n_test": 13,
+        "n_pos_test": 2,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.6444444444444445,
+        "auprc": 0.5547619047619047,
+        "brier": 0.2564421722270684,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 5,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.8461538461538461,
+        "auprc": 0.3333333333333333,
+        "brier": 0.14700440371515205,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 1,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "MESO/CDKN2A homdel",
+    "cohort": "MESO",
+    "biomarker": "CDKN2A homdel",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 33,
+    "prevalence": 0.44,
+    "pooled_auroc": 0.5289,
+    "pooled_auprc": 0.4948,
+    "pooled_brier": 0.2499,
+    "auroc_ci": [
+      0.3964,
+      0.67
+    ],
+    "auprc_ci": [
+      0.3464,
+      0.6729
+    ],
+    "mean_fold_auroc": 0.4903,
+    "std_fold_auroc": 0.0524,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.525,
+        "auprc": 0.5425137362637362,
+        "brier": 0.24745629656426654,
+        "n_train": 57,
+        "n_test": 18,
+        "n_pos_test": 8,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.4444444444444445,
+        "auprc": 0.47848639455782316,
+        "brier": 0.2508357985315513,
+        "n_train": 59,
+        "n_test": 16,
+        "n_pos_test": 7,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.575,
+        "auprc": 0.5858119658119658,
+        "brier": 0.24305048825170653,
+        "n_train": 62,
+        "n_test": 13,
+        "n_pos_test": 5,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 0.4375,
+        "auprc": 0.44851398601398595,
+        "brier": 0.25313267483207924,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 6,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.4693877551020408,
+        "auprc": 0.5515873015873016,
+        "brier": 0.2548668727903496,
+        "n_train": 61,
+        "n_test": 14,
+        "n_pos_test": 7,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "MESO/Immune C1",
+    "cohort": "MESO",
+    "biomarker": "Immune C1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 72,
+    "n_pos": 30,
+    "prevalence": 0.417,
+    "pooled_auroc": 0.6667,
+    "pooled_auprc": 0.5654,
+    "pooled_brier": 0.2628,
+    "auroc_ci": [
+      0.5268,
+      0.7932
+    ],
+    "auprc_ci": [
+      0.4073,
+      0.7597
+    ],
+    "mean_fold_auroc": 0.7187,
+    "std_fold_auroc": 0.0766,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6727272727272727,
+        "auprc": 0.5769230769230769,
+        "brier": 0.2724086180202985,
+        "n_train": 56,
+        "n_test": 16,
+        "n_pos_test": 5,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 1,
+        "auroc": 0.625,
+        "auprc": 0.5931748806748807,
+        "brier": 0.4308367886907694,
+        "n_train": 56,
+        "n_test": 16,
+        "n_pos_test": 8,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 0.7272727272727273,
+        "auprc": 0.39285714285714285,
+        "brier": 0.17290289313490959,
+        "n_train": 59,
+        "n_test": 13,
+        "n_pos_test": 2,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 0.8541666666666666,
+        "auprc": 0.9068813131313131,
+        "brier": 0.1632390771076993,
+        "n_train": 58,
+        "n_test": 14,
+        "n_pos_test": 8,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.7142857142857143,
+        "auprc": 0.8044217687074828,
+        "brier": 0.24115835474050545,
+        "n_train": 59,
+        "n_test": 13,
+        "n_pos_test": 7,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "CHOL/Anatomic subtype",
+    "status": "skipped",
+    "tier": "exploratory"
+  },
+  {
+    "cell": "CHOL/IDH1",
+    "cohort": "CHOL",
+    "biomarker": "IDH1",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 39,
+    "n_pos": 5,
+    "prevalence": 0.128,
+    "pooled_auroc": 0.8412,
+    "pooled_auprc": 0.584,
+    "pooled_brier": 0.1774,
+    "auroc_ci": [
+      0.6498,
+      1.0
+    ],
+    "auprc_ci": [
+      0.1131,
+      1.0
+    ],
+    "mean_fold_auroc": 0.8679,
+    "std_fold_auroc": 0.1643,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.625,
+        "auprc": 0.25,
+        "brier": 0.20353911435488395,
+        "n_train": 30,
+        "n_test": 9,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.21964076372757135,
+        "n_train": 31,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.008855268604519899,
+        "n_train": 33,
+        "n_test": 6,
+        "n_pos_test": 1,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 3,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.19959740944818813,
+        "n_train": 31,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.7142857142857143,
+        "auprc": 0.3333333333333333,
+        "brier": 0.2101823275683923,
+        "n_train": 31,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "CHOL/ARID1A",
+    "status": "insufficient_n",
+    "n": 39,
+    "n_pos": 4,
+    "prevalence": 0.10256410256410256,
+    "tier": "exploratory"
+  },
+  {
+    "cell": "CHOL/Immune C3",
+    "cohort": "CHOL",
+    "biomarker": "Immune C3",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 35,
+    "n_pos": 17,
+    "prevalence": 0.486,
+    "pooled_auroc": 0.4739,
+    "pooled_auprc": 0.4917,
+    "pooled_brier": 0.3433,
+    "auroc_ci": [
+      0.2829,
+      0.6735
+    ],
+    "auprc_ci": [
+      0.3233,
+      0.7443
+    ],
+    "mean_fold_auroc": 0.4022,
+    "std_fold_auroc": 0.209,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.5,
+        "auprc": 0.48333333333333334,
+        "brier": 0.36467752896022826,
+        "n_train": 26,
+        "n_test": 9,
+        "n_pos_test": 4,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 1,
+        "auroc": 0.4,
+        "auprc": 0.39285714285714285,
+        "brier": 0.23558630484712198,
+        "n_train": 28,
+        "n_test": 7,
+        "n_pos_test": 2,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 2,
+        "auroc": 0.5555555555555556,
+        "auprc": 0.7222222222222222,
+        "brier": 0.33520855418748147,
+        "n_train": 29,
+        "n_test": 6,
+        "n_pos_test": 3,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 3,
+        "auroc": 0.0,
+        "auprc": 0.5628571428571428,
+        "brier": 0.5094644050422658,
+        "n_train": 28,
+        "n_test": 7,
+        "n_pos_test": 5,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.5555555555555556,
+        "auprc": 0.5888888888888889,
+        "brier": 0.25122228852705586,
+        "n_train": 29,
+        "n_test": 6,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      }
+    ]
+  },
+  {
+    "cell": "THYM/GTF2I",
+    "cohort": "THYM",
+    "biomarker": "GTF2I",
+    "tier": "primary",
+    "status": "ok",
+    "n": 121,
+    "n_pos": 59,
+    "prevalence": 0.488,
+    "pooled_auroc": 0.9333,
+    "pooled_auprc": 0.9122,
+    "pooled_brier": 0.1302,
+    "auroc_ci": [
+      0.8807,
+      0.9731
+    ],
+    "auprc_ci": [
+      0.8357,
+      0.9716
+    ],
+    "mean_fold_auroc": 0.9332,
+    "std_fold_auroc": 0.0313,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.9027777777777777,
+        "auprc": 0.9122324434824435,
+        "brier": 0.18761098346005567,
+        "n_train": 97,
+        "n_test": 24,
+        "n_pos_test": 12,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 0.923076923076923,
+        "auprc": 0.9049674862174862,
+        "brier": 0.1678827747045157,
+        "n_train": 96,
+        "n_test": 25,
+        "n_pos_test": 12,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.9807692307692308,
+        "auprc": 0.9790695415695415,
+        "brier": 0.08188151758189927,
+        "n_train": 96,
+        "n_test": 25,
+        "n_pos_test": 12,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 3,
+        "auroc": 0.958041958041958,
+        "auprc": 0.9543335452426362,
+        "brier": 0.0959617342105072,
+        "n_train": 97,
+        "n_test": 24,
+        "n_pos_test": 11,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "auroc": 0.9015151515151515,
+        "auprc": 0.8840980778480779,
+        "brier": 0.11783668641048095,
+        "n_train": 98,
+        "n_test": 23,
+        "n_pos_test": 12,
+        "best_C": 0.000774263682681127
+      }
+    ]
+  },
+  {
+    "cell": "THYM/TMB-high",
+    "cohort": "THYM",
+    "biomarker": "TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 120,
+    "n_pos": 31,
+    "prevalence": 0.258,
+    "pooled_auroc": 0.8282,
+    "pooled_auprc": 0.6256,
+    "pooled_brier": 0.1756,
+    "auroc_ci": [
+      0.7411,
+      0.9034
+    ],
+    "auprc_ci": [
+      0.4663,
+      0.8051
+    ],
+    "mean_fold_auroc": 0.8763,
+    "std_fold_auroc": 0.0452,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.8703703703703705,
+        "auprc": 0.6848595848595849,
+        "brier": 0.18764959796290634,
+        "n_train": 96,
+        "n_test": 24,
+        "n_pos_test": 6,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 1,
+        "auroc": 0.8014705882352942,
+        "auprc": 0.6947136809269162,
+        "brier": 0.16858922924106212,
+        "n_train": 95,
+        "n_test": 25,
+        "n_pos_test": 8,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 2,
+        "auroc": 0.8631578947368421,
+        "auprc": 0.6745421245421246,
+        "brier": 0.183118351790694,
+        "n_train": 96,
+        "n_test": 24,
+        "n_pos_test": 5,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.9243697478991596,
+        "auprc": 0.8242424242424242,
+        "brier": 0.1990808706316408,
+        "n_train": 96,
+        "n_test": 24,
+        "n_pos_test": 7,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.9222222222222223,
+        "auprc": 0.8253968253968254,
+        "brier": 0.1380740482137281,
+        "n_train": 97,
+        "n_test": 23,
+        "n_pos_test": 5,
+        "best_C": 0.000774263682681127
+      }
+    ]
+  },
+  {
+    "cell": "THYM/WHO subtype",
+    "status": "multiclass_deferred",
+    "tier": "primary"
+  },
+  {
+    "cell": "THYM/HRAS",
+    "cohort": "THYM",
+    "biomarker": "HRAS",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 121,
+    "n_pos": 9,
+    "prevalence": 0.074,
+    "pooled_auroc": 0.829,
+    "pooled_auprc": 0.3862,
+    "pooled_brier": 0.1128,
+    "auroc_ci": [
+      0.6924,
+      0.9334
+    ],
+    "auprc_ci": [
+      0.1393,
+      0.6763
+    ],
+    "mean_fold_auroc": 0.9182,
+    "std_fold_auroc": 0.0711,
+    "n_valid_folds": 4,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.8863636363636364,
+        "auprc": 0.3666666666666667,
+        "brier": 0.09538166883555328,
+        "n_train": 97,
+        "n_test": 24,
+        "n_pos_test": 2,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 1,
+        "auroc": 0.8181818181818181,
+        "auprc": 0.3333333333333333,
+        "brier": 0.11063254040773182,
+        "n_train": 96,
+        "n_test": 25,
+        "n_pos_test": 3,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 2,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.16062634279386057,
+        "n_train": 96,
+        "n_test": 25,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.9682539682539681,
+        "auprc": 0.8055555555555556,
+        "brier": 0.082604422104313,
+        "n_train": 97,
+        "n_test": 24,
+        "n_pos_test": 3,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "status": "single_class"
+      }
+    ]
+  },
+  {
+    "cell": "KICH/TP53",
+    "cohort": "KICH",
+    "biomarker": "TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 109,
+    "n_pos": 21,
+    "prevalence": 0.193,
+    "pooled_auroc": 0.6791,
+    "pooled_auprc": 0.295,
+    "pooled_brier": 0.2153,
+    "auroc_ci": [
+      0.5616,
+      0.7928
+    ],
+    "auprc_ci": [
+      0.1863,
+      0.4877
+    ],
+    "mean_fold_auroc": 0.6986,
+    "std_fold_auroc": 0.0411,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6911764705882353,
+        "auprc": 0.3060876623376623,
+        "brier": 0.26607018069470384,
+        "n_train": 88,
+        "n_test": 21,
+        "n_pos_test": 4,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 1,
+        "auroc": 0.6944444444444445,
+        "auprc": 0.3363095238095238,
+        "brier": 0.17923796705790204,
+        "n_train": 87,
+        "n_test": 22,
+        "n_pos_test": 4,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6352941176470588,
+        "auprc": 0.30857142857142855,
+        "brier": 0.20750558127421492,
+        "n_train": 87,
+        "n_test": 22,
+        "n_pos_test": 5,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 0.7083333333333334,
+        "auprc": 0.3117424242424242,
+        "brier": 0.20717264362585516,
+        "n_train": 87,
+        "n_test": 22,
+        "n_pos_test": 4,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.763888888888889,
+        "auprc": 0.5488095238095239,
+        "brier": 0.21858287538780272,
+        "n_train": 87,
+        "n_test": 22,
+        "n_pos_test": 4,
+        "best_C": 2.782559402207126
+      }
+    ]
+  },
+  {
+    "cell": "KICH/Aneuploidy-high",
+    "cohort": "KICH",
+    "biomarker": "Aneuploidy-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 17,
+    "prevalence": 0.262,
+    "pooled_auroc": 0.6544,
+    "pooled_auprc": 0.4035,
+    "pooled_brier": 0.2577,
+    "auroc_ci": [
+      0.4936,
+      0.7925
+    ],
+    "auprc_ci": [
+      0.2348,
+      0.6466
+    ],
+    "mean_fold_auroc": 0.6296,
+    "std_fold_auroc": 0.1084,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.7272727272727272,
+        "auprc": 0.675595238095238,
+        "brier": 0.13924499213496253,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 4,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 1,
+        "auroc": 0.5227272727272727,
+        "auprc": 0.35416666666666663,
+        "brier": 0.37043871235334463,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 4,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.6904761904761905,
+        "brier": 0.16800099273414365,
+        "n_train": 52,
+        "n_test": 13,
+        "n_pos_test": 4,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 3,
+        "auroc": 0.48148148148148145,
+        "auprc": 0.2869047619047619,
+        "brier": 0.319845098992826,
+        "n_train": 53,
+        "n_test": 12,
+        "n_pos_test": 3,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.75,
+        "auprc": 0.41666666666666663,
+        "brier": 0.30819195547353506,
+        "n_train": 55,
+        "n_test": 10,
+        "n_pos_test": 2,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "KICH/Immune C3",
+    "cohort": "KICH",
+    "biomarker": "Immune C3",
+    "tier": "primary",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 38,
+    "prevalence": 0.585,
+    "pooled_auroc": 0.4854,
+    "pooled_auprc": 0.6506,
+    "pooled_brier": 0.2602,
+    "auroc_ci": [
+      0.3481,
+      0.6276
+    ],
+    "auprc_ci": [
+      0.5061,
+      0.781
+    ],
+    "mean_fold_auroc": 0.4904,
+    "std_fold_auroc": 0.1982,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.40740740740740744,
+        "auprc": 0.6763193596526931,
+        "brier": 0.2858007311398312,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 9,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 1,
+        "auroc": 0.33333333333333337,
+        "auprc": 0.5664187664187664,
+        "brier": 0.26304451055094624,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 9,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.475,
+        "auprc": 0.6807921245421246,
+        "brier": 0.25074818918241953,
+        "n_train": 52,
+        "n_test": 13,
+        "n_pos_test": 8,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.36111111111111116,
+        "auprc": 0.4555555555555556,
+        "brier": 0.2560629894614133,
+        "n_train": 53,
+        "n_test": 12,
+        "n_pos_test": 6,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.875,
+        "auprc": 0.9305555555555555,
+        "brier": 0.23476445050375472,
+        "n_train": 55,
+        "n_test": 10,
+        "n_pos_test": 6,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "KICH/MSI-H",
+    "cohort": "KICH",
+    "biomarker": "MSI-H",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 7,
+    "prevalence": 0.108,
+    "pooled_auroc": 0.3869,
+    "pooled_auprc": 0.1123,
+    "pooled_brier": 0.1975,
+    "auroc_ci": [
+      0.1986,
+      0.5784
+    ],
+    "auprc_ci": [
+      0.0588,
+      0.2335
+    ],
+    "mean_fold_auroc": 0.3972,
+    "std_fold_auroc": 0.1362,
+    "n_valid_folds": 4,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.5384615384615384,
+        "auprc": 0.19444444444444442,
+        "brier": 0.1333038042786379,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 2,
+        "best_C": 0.3593813663804626
+      },
+      {
+        "fold": 1,
+        "auroc": 0.5277777777777777,
+        "auprc": 0.27136752136752135,
+        "brier": 0.19977348010861976,
+        "n_train": 50,
+        "n_test": 15,
+        "n_pos_test": 3,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 2,
+        "auroc": 0.25,
+        "auprc": 0.1,
+        "brier": 0.24164211748577544,
+        "n_train": 52,
+        "n_test": 13,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 0.2727272727272727,
+        "auprc": 0.1111111111111111,
+        "brier": 0.2270055559417976,
+        "n_train": 53,
+        "n_test": 12,
+        "n_pos_test": 1,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 4,
+        "status": "single_class"
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/MSI-H",
+    "cohort": "DLBC",
+    "biomarker": "MSI-H",
+    "tier": "primary",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 11,
+    "prevalence": 0.25,
+    "pooled_auroc": 0.9394,
+    "pooled_auprc": 0.8963,
+    "pooled_brier": 0.0749,
+    "auroc_ci": [
+      0.8333,
+      1.0
+    ],
+    "auprc_ci": [
+      0.7374,
+      1.0
+    ],
+    "mean_fold_auroc": 0.9167,
+    "std_fold_auroc": 0.1291,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 9.530099260797344e-06,
+        "n_train": 36,
+        "n_test": 8,
+        "n_pos_test": 2,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 1,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.01598723586589425,
+        "n_train": 34,
+        "n_test": 10,
+        "n_pos_test": 2,
+        "best_C": 21.54434690031882
+      },
+      {
+        "fold": 2,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.4777777777777778,
+        "brier": 0.23717885016574514,
+        "n_train": 35,
+        "n_test": 9,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 3,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.00014156149425503047,
+        "n_train": 35,
+        "n_test": 9,
+        "n_pos_test": 2,
+        "best_C": 1291.5496650148827
+      },
+      {
+        "fold": 4,
+        "auroc": 0.9166666666666667,
+        "auprc": 0.8333333333333333,
+        "brier": 0.12478646512536135,
+        "n_train": 36,
+        "n_test": 8,
+        "n_pos_test": 2,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/TMB-high",
+    "cohort": "DLBC",
+    "biomarker": "TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 37,
+    "n_pos": 10,
+    "prevalence": 0.27,
+    "pooled_auroc": 0.6037,
+    "pooled_auprc": 0.4234,
+    "pooled_brier": 0.2723,
+    "auroc_ci": [
+      0.3667,
+      0.8182
+    ],
+    "auprc_ci": [
+      0.1856,
+      0.7005
+    ],
+    "mean_fold_auroc": 0.6478,
+    "std_fold_auroc": 0.2841,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.8333333333333334,
+        "auprc": 0.5,
+        "brier": 0.12374033734347331,
+        "n_train": 30,
+        "n_test": 7,
+        "n_pos_test": 1,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 1,
+        "auroc": 0.888888888888889,
+        "auprc": 0.8055555555555556,
+        "brier": 0.18903662389866213,
+        "n_train": 28,
+        "n_test": 9,
+        "n_pos_test": 3,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 2,
+        "auroc": 0.75,
+        "auprc": 0.7555555555555555,
+        "brier": 0.23628986665431256,
+        "n_train": 30,
+        "n_test": 7,
+        "n_pos_test": 3,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 3,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.3333333333333333,
+        "brier": 0.1823300660908392,
+        "n_train": 30,
+        "n_test": 7,
+        "n_pos_test": 1,
+        "best_C": 0.046415888336127774
+      },
+      {
+        "fold": 4,
+        "auroc": 0.09999999999999998,
+        "auprc": 0.24285714285714285,
+        "brier": 0.6536717522047518,
+        "n_train": 30,
+        "n_test": 7,
+        "n_pos_test": 2,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/Hans non-GCB",
+    "cohort": "DLBC",
+    "biomarker": "Hans non-GCB",
+    "tier": "primary",
+    "status": "ok",
+    "n": 33,
+    "n_pos": 19,
+    "prevalence": 0.576,
+    "pooled_auroc": 0.5602,
+    "pooled_auprc": 0.6288,
+    "pooled_brier": 0.3506,
+    "auroc_ci": [
+      0.3564,
+      0.7556
+    ],
+    "auprc_ci": [
+      0.4279,
+      0.8591
+    ],
+    "mean_fold_auroc": 0.5133,
+    "std_fold_auroc": 0.3277,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.6666666666666667,
+        "auprc": 0.5,
+        "brier": 0.3808557839219354,
+        "n_train": 29,
+        "n_test": 4,
+        "n_pos_test": 1,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 1,
+        "auroc": 0.5,
+        "auprc": 0.6,
+        "brier": 0.4596445520231696,
+        "n_train": 24,
+        "n_test": 9,
+        "n_pos_test": 4,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 2,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.11341137255906893,
+        "n_train": 24,
+        "n_test": 9,
+        "n_pos_test": 7,
+        "best_C": 166.81005372000558
+      },
+      {
+        "fold": 3,
+        "auroc": 0.0,
+        "auprc": 0.41666666666666663,
+        "brier": 0.32523518198544643,
+        "n_train": 29,
+        "n_test": 4,
+        "n_pos_test": 2,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 4,
+        "auroc": 0.4,
+        "auprc": 0.7961904761904761,
+        "brier": 0.5124024136907065,
+        "n_train": 26,
+        "n_test": 7,
+        "n_pos_test": 5,
+        "best_C": 166.81005372000558
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/MYD88",
+    "cohort": "DLBC",
+    "biomarker": "MYD88",
+    "tier": "primary",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 5,
+    "prevalence": 0.114,
+    "pooled_auroc": 0.7897,
+    "pooled_auprc": 0.4838,
+    "pooled_brier": 0.1649,
+    "auroc_ci": [
+      0.44,
+      1.0
+    ],
+    "auprc_ci": [
+      0.1326,
+      1.0
+    ],
+    "mean_fold_auroc": 0.8929,
+    "std_fold_auroc": 0.0958,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.8571428571428572,
+        "auprc": 0.5,
+        "brier": 0.21879555188930666,
+        "n_train": 36,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 1,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.21282953193545975,
+        "n_train": 34,
+        "n_test": 10,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.0980070779652378,
+        "n_train": 35,
+        "n_test": 9,
+        "n_pos_test": 1,
+        "best_C": 0.000774263682681127
+      },
+      {
+        "fold": 3,
+        "auroc": 0.75,
+        "auprc": 0.3333333333333333,
+        "brier": 0.20547964553561865,
+        "n_train": 35,
+        "n_test": 9,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 4,
+        "auroc": 0.8571428571428572,
+        "auprc": 0.5,
+        "brier": 0.0809102898347509,
+        "n_train": 36,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 2.782559402207126
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/Aneuploidy-high",
+    "cohort": "DLBC",
+    "biomarker": "Aneuploidy-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 43,
+    "n_pos": 14,
+    "prevalence": 0.326,
+    "pooled_auroc": 0.6823,
+    "pooled_auprc": 0.4934,
+    "pooled_brier": 0.2354,
+    "auroc_ci": [
+      0.4978,
+      0.8429
+    ],
+    "auprc_ci": [
+      0.3095,
+      0.7729
+    ],
+    "mean_fold_auroc": 0.7683,
+    "std_fold_auroc": 0.1719,
+    "n_valid_folds": 5,
+    "per_fold": [
+      {
+        "fold": 0,
+        "auroc": 0.5,
+        "auprc": 0.39285714285714285,
+        "brier": 0.4521259803120154,
+        "n_train": 35,
+        "n_test": 8,
+        "n_pos_test": 2,
+        "best_C": 2.782559402207126
+      },
+      {
+        "fold": 1,
+        "auroc": 0.7083333333333334,
+        "auprc": 0.75,
+        "brier": 0.2379982909005645,
+        "n_train": 33,
+        "n_test": 10,
+        "n_pos_test": 4,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "auroc": 0.9,
+        "auprc": 0.8875,
+        "brier": 0.14729773094155976,
+        "n_train": 34,
+        "n_test": 9,
+        "n_pos_test": 4,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 3,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.1516932312569082,
+        "n_train": 35,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.7333333333333333,
+        "auprc": 0.7222222222222223,
+        "brier": 0.19806162594796292,
+        "n_train": 35,
+        "n_test": 8,
+        "n_pos_test": 3,
+        "best_C": 0.046415888336127774
+      }
+    ]
+  },
+  {
+    "cell": "DLBC/CD79B",
+    "status": "insufficient_n",
+    "n": 44,
+    "n_pos": 3,
+    "prevalence": 0.06818181818181818,
+    "tier": "exploratory"
+  },
+  {
+    "cell": "DLBC/TP53",
+    "cohort": "DLBC",
+    "biomarker": "TP53",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 5,
+    "prevalence": 0.114,
+    "pooled_auroc": 0.6636,
+    "pooled_auprc": 0.2772,
+    "pooled_brier": 0.1677,
+    "auroc_ci": [
+      0.4455,
+      0.8732
+    ],
+    "auprc_ci": [
+      0.1176,
+      0.6376
+    ],
+    "mean_fold_auroc": 0.7619,
+    "std_fold_auroc": 0.1782,
+    "n_valid_folds": 3,
+    "per_fold": [
+      {
+        "fold": 0,
+        "status": "single_class"
+      },
+      {
+        "fold": 1,
+        "auroc": 0.7142857142857142,
+        "auprc": 0.5,
+        "brier": 0.22341813543177952,
+        "n_train": 34,
+        "n_test": 10,
+        "n_pos_test": 3,
+        "best_C": 0.0001
+      },
+      {
+        "fold": 2,
+        "status": "single_class"
+      },
+      {
+        "fold": 3,
+        "auroc": 1.0,
+        "auprc": 1.0,
+        "brier": 0.05527481785859646,
+        "n_train": 35,
+        "n_test": 9,
+        "n_pos_test": 1,
+        "best_C": 0.005994842503189409
+      },
+      {
+        "fold": 4,
+        "auroc": 0.5714285714285714,
+        "auprc": 0.25,
+        "brier": 0.22439577256763146,
+        "n_train": 36,
+        "n_test": 8,
+        "n_pos_test": 1,
+        "best_C": 0.0001
+      }
+    ]
+  }
+]

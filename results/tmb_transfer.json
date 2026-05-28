@@ -1,0 +1,35 @@
+{
+  "source": "TCGA-COAD TMB-high",
+  "source_n": 374,
+  "source_q75": 5.133,
+  "source_prevalence": 0.305,
+  "transfer_results": [
+    {
+      "target_cohort": "ACC",
+      "biomarker": "TMB-high",
+      "transfer_auroc": 0.5,
+      "within_auroc": 0.6533,
+      "delta": -0.1533,
+      "n": 55,
+      "prevalence": 0.273
+    },
+    {
+      "target_cohort": "THYM",
+      "biomarker": "TMB-high",
+      "transfer_auroc": 0.6803,
+      "within_auroc": 0.8282,
+      "delta": -0.1479,
+      "n": 120,
+      "prevalence": 0.258
+    },
+    {
+      "target_cohort": "DLBC",
+      "biomarker": "TMB-high",
+      "transfer_auroc": 0.7037,
+      "within_auroc": 0.6037,
+      "delta": 0.1,
+      "n": 37,
+      "prevalence": 0.27
+    }
+  ]
+}

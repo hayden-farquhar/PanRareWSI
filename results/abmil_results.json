@@ -1,0 +1,431 @@
+[
+  {
+    "cell": "ACC/TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 56,
+    "n_pos": 12,
+    "abmil_auroc": 0.6269,
+    "abmil_ci": [
+      0.4585,
+      0.7891
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "ACC/CTNNB1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 56,
+    "n_pos": 8,
+    "abmil_auroc": 0.7568,
+    "abmil_ci": [
+      0.5401,
+      0.926
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "ACC/TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 55,
+    "n_pos": 15,
+    "abmil_auroc": 0.6417,
+    "abmil_ci": [
+      0.4756,
+      0.8093
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "ACC/FGA-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 54,
+    "n_pos": 15,
+    "abmil_auroc": 0.5009,
+    "abmil_ci": [
+      0.3247,
+      0.6804
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "ACC/Immune C4",
+    "tier": "primary",
+    "status": "ok",
+    "n": 54,
+    "n_pos": 34,
+    "abmil_auroc": 0.475,
+    "abmil_ci": [
+      0.3214,
+      0.6292
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/GNAQ",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 40,
+    "abmil_auroc": 0.5281,
+    "abmil_ci": [
+      0.4086,
+      0.6613
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/GNA11",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 36,
+    "abmil_auroc": 0.5676,
+    "abmil_ci": [
+      0.4444,
+      0.698
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/SF3B1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 18,
+    "abmil_auroc": 0.6649,
+    "abmil_ci": [
+      0.4954,
+      0.8127
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/BAP1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 13,
+    "abmil_auroc": 0.6546,
+    "abmil_ci": [
+      0.4891,
+      0.8115
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/EIF1AX",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 10,
+    "abmil_auroc": 0.76,
+    "abmil_ci": [
+      0.5343,
+      0.9374
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/Chr3 loss",
+    "tier": "primary",
+    "status": "ok",
+    "n": 52,
+    "n_pos": 31,
+    "abmil_auroc": 0.5622,
+    "abmil_ci": [
+      0.404,
+      0.7107
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "UVM/Immune C4",
+    "tier": "primary",
+    "status": "ok",
+    "n": 80,
+    "n_pos": 48,
+    "abmil_auroc": 0.5436,
+    "abmil_ci": [
+      0.4058,
+      0.6625
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/Histology epi",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 51,
+    "abmil_auroc": 0.54,
+    "abmil_ci": [
+      0.3816,
+      0.6949
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/NF2",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 16,
+    "abmil_auroc": 0.4068,
+    "abmil_ci": [
+      0.2556,
+      0.5602
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/BAP1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 14,
+    "abmil_auroc": 0.4883,
+    "abmil_ci": [
+      0.3569,
+      0.6167
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 12,
+    "abmil_auroc": 0.4113,
+    "abmil_ci": [
+      0.2204,
+      0.5899
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/CDKN2A homdel",
+    "tier": "primary",
+    "status": "ok",
+    "n": 75,
+    "n_pos": 33,
+    "abmil_auroc": 0.526,
+    "abmil_ci": [
+      0.3971,
+      0.6576
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "MESO/Immune C1",
+    "tier": "primary",
+    "status": "ok",
+    "n": 72,
+    "n_pos": 30,
+    "abmil_auroc": 0.6032,
+    "abmil_ci": [
+      0.4691,
+      0.7359
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "CHOL/IDH1",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 39,
+    "n_pos": 5,
+    "abmil_auroc": 0.6529,
+    "abmil_ci": [
+      0.3052,
+      0.8952
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "CHOL/Immune C3",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 35,
+    "n_pos": 17,
+    "abmil_auroc": 0.4673,
+    "abmil_ci": [
+      0.2712,
+      0.6645
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "THYM/GTF2I",
+    "tier": "primary",
+    "status": "ok",
+    "n": 121,
+    "n_pos": 59,
+    "abmil_auroc": 0.9278,
+    "abmil_ci": [
+      0.8744,
+      0.9683
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "THYM/TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 120,
+    "n_pos": 31,
+    "abmil_auroc": 0.8155,
+    "abmil_ci": [
+      0.7129,
+      0.9015
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "THYM/HRAS",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 121,
+    "n_pos": 9,
+    "abmil_auroc": 0.7728,
+    "abmil_ci": [
+      0.5503,
+      0.9375
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "KICH/TP53",
+    "tier": "primary",
+    "status": "ok",
+    "n": 109,
+    "n_pos": 21,
+    "abmil_auroc": 0.6299,
+    "abmil_ci": [
+      0.4964,
+      0.7642
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "KICH/Aneuploidy-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 17,
+    "abmil_auroc": 0.6679,
+    "abmil_ci": [
+      0.5075,
+      0.8113
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "KICH/Immune C3",
+    "tier": "primary",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 38,
+    "abmil_auroc": 0.4737,
+    "abmil_ci": [
+      0.3447,
+      0.6149
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "KICH/MSI-H",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 65,
+    "n_pos": 7,
+    "abmil_auroc": 0.3423,
+    "abmil_ci": [
+      0.1397,
+      0.5438
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/MSI-H",
+    "tier": "primary",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 11,
+    "abmil_auroc": 0.7438,
+    "abmil_ci": [
+      0.5312,
+      0.9008
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/TMB-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 37,
+    "n_pos": 10,
+    "abmil_auroc": 0.6333,
+    "abmil_ci": [
+      0.3929,
+      0.8524
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/Hans non-GCB",
+    "tier": "primary",
+    "status": "ok",
+    "n": 33,
+    "n_pos": 19,
+    "abmil_auroc": 0.3759,
+    "abmil_ci": [
+      0.1884,
+      0.6019
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/MYD88",
+    "tier": "primary",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 5,
+    "abmil_auroc": 0.9795,
+    "abmil_ci": [
+      0.9079,
+      1.0
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/Aneuploidy-high",
+    "tier": "primary",
+    "status": "ok",
+    "n": 43,
+    "n_pos": 14,
+    "abmil_auroc": 0.6946,
+    "abmil_ci": [
+      0.4932,
+      0.8642
+    ],
+    "device": "cuda"
+  },
+  {
+    "cell": "DLBC/TP53",
+    "tier": "exploratory",
+    "status": "ok",
+    "n": 44,
+    "n_pos": 5,
+    "abmil_auroc": 0.8636,
+    "abmil_ci": [
+      0.7091,
+      0.9944
+    ],
+    "device": "cuda"
+  }
+]

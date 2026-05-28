@@ -1,0 +1,340 @@
+{
+  "n_cells": 33,
+  "mean_uni2": 0.631,
+  "mean_gigapath": 0.6292,
+  "mean_ensemble": 0.637,
+  "uni2_beats_gigapath": 14,
+  "ensemble_improves_gt0.02": 3,
+  "cells": [
+    {
+      "cell": "ACC/TP53",
+      "tier": "primary",
+      "n": 54,
+      "n_pos": 12,
+      "uni2_auroc": 0.6905,
+      "gigapath_auroc": 0.7599,
+      "ensemble_auroc": 0.7738,
+      "ensemble_vs_best_single": 0.0139
+    },
+    {
+      "cell": "ACC/CTNNB1",
+      "tier": "primary",
+      "n": 31,
+      "n_pos": 7,
+      "uni2_auroc": 0.6667,
+      "gigapath_auroc": 0.6845,
+      "ensemble_auroc": 0.6786,
+      "ensemble_vs_best_single": -0.006
+    },
+    {
+      "cell": "ACC/TMB-high",
+      "tier": "primary",
+      "n": 53,
+      "n_pos": 15,
+      "uni2_auroc": 0.6614,
+      "gigapath_auroc": 0.6965,
+      "ensemble_auroc": 0.6667,
+      "ensemble_vs_best_single": -0.0298
+    },
+    {
+      "cell": "ACC/FGA-high",
+      "tier": "primary",
+      "n": 52,
+      "n_pos": 14,
+      "uni2_auroc": 0.5132,
+      "gigapath_auroc": 0.6353,
+      "ensemble_auroc": 0.5489,
+      "ensemble_vs_best_single": -0.0865
+    },
+    {
+      "cell": "ACC/Immune C4",
+      "tier": "primary",
+      "n": 52,
+      "n_pos": 33,
+      "uni2_auroc": 0.5901,
+      "gigapath_auroc": 0.5167,
+      "ensemble_auroc": 0.5662,
+      "ensemble_vs_best_single": -0.0239
+    },
+    {
+      "cell": "UVM/GNAQ",
+      "tier": "primary",
+      "n": 80,
+      "n_pos": 40,
+      "uni2_auroc": 0.4881,
+      "gigapath_auroc": 0.4919,
+      "ensemble_auroc": 0.4963,
+      "ensemble_vs_best_single": 0.0044
+    },
+    {
+      "cell": "UVM/GNA11",
+      "tier": "primary",
+      "n": 80,
+      "n_pos": 36,
+      "uni2_auroc": 0.5253,
+      "gigapath_auroc": 0.577,
+      "ensemble_auroc": 0.5732,
+      "ensemble_vs_best_single": -0.0038
+    },
+    {
+      "cell": "UVM/SF3B1",
+      "tier": "primary",
+      "n": 80,
+      "n_pos": 18,
+      "uni2_auroc": 0.6541,
+      "gigapath_auroc": 0.7016,
+      "ensemble_auroc": 0.6909,
+      "ensemble_vs_best_single": -0.0108
+    },
+    {
+      "cell": "UVM/BAP1",
+      "tier": "primary",
+      "n": 64,
+      "n_pos": 13,
+      "uni2_auroc": 0.6486,
+      "gigapath_auroc": 0.6817,
+      "ensemble_auroc": 0.6908,
+      "ensemble_vs_best_single": 0.009
+    },
+    {
+      "cell": "UVM/EIF1AX",
+      "tier": "primary",
+      "n": 80,
+      "n_pos": 10,
+      "uni2_auroc": 0.8171,
+      "gigapath_auroc": 0.6714,
+      "ensemble_auroc": 0.7457,
+      "ensemble_vs_best_single": -0.0714
+    },
+    {
+      "cell": "UVM/Chr3 loss",
+      "tier": "primary",
+      "n": 52,
+      "n_pos": 31,
+      "uni2_auroc": 0.7942,
+      "gigapath_auroc": 0.8141,
+      "ensemble_auroc": 0.8157,
+      "ensemble_vs_best_single": 0.0015
+    },
+    {
+      "cell": "UVM/Immune C4",
+      "tier": "primary",
+      "n": 80,
+      "n_pos": 48,
+      "uni2_auroc": 0.4863,
+      "gigapath_auroc": 0.4863,
+      "ensemble_auroc": 0.4577,
+      "ensemble_vs_best_single": -0.0286
+    },
+    {
+      "cell": "MESO/Histology epi",
+      "tier": "primary",
+      "n": 75,
+      "n_pos": 51,
+      "uni2_auroc": 0.5547,
+      "gigapath_auroc": 0.6454,
+      "ensemble_auroc": 0.5694,
+      "ensemble_vs_best_single": -0.076
+    },
+    {
+      "cell": "MESO/NF2",
+      "tier": "primary",
+      "n": 75,
+      "n_pos": 16,
+      "uni2_auroc": 0.4025,
+      "gigapath_auroc": 0.4301,
+      "ensemble_auroc": 0.3972,
+      "ensemble_vs_best_single": -0.0328
+    },
+    {
+      "cell": "MESO/BAP1",
+      "tier": "primary",
+      "n": 75,
+      "n_pos": 14,
+      "uni2_auroc": 0.5328,
+      "gigapath_auroc": 0.4883,
+      "ensemble_auroc": 0.5468,
+      "ensemble_vs_best_single": 0.0141
+    },
+    {
+      "cell": "MESO/TP53",
+      "tier": "primary",
+      "n": 59,
+      "n_pos": 12,
+      "uni2_auroc": 0.6135,
+      "gigapath_auroc": 0.6259,
+      "ensemble_auroc": 0.6383,
+      "ensemble_vs_best_single": 0.0124
+    },
+    {
+      "cell": "MESO/CDKN2A homdel",
+      "tier": "primary",
+      "n": 75,
+      "n_pos": 33,
+      "uni2_auroc": 0.5289,
+      "gigapath_auroc": 0.6371,
+      "ensemble_auroc": 0.5685,
+      "ensemble_vs_best_single": -0.0685
+    },
+    {
+      "cell": "MESO/Immune C1",
+      "tier": "primary",
+      "n": 72,
+      "n_pos": 30,
+      "uni2_auroc": 0.6667,
+      "gigapath_auroc": 0.6841,
+      "ensemble_auroc": 0.696,
+      "ensemble_vs_best_single": 0.0119
+    },
+    {
+      "cell": "CHOL/IDH1",
+      "tier": "exploratory",
+      "n": 36,
+      "n_pos": 5,
+      "uni2_auroc": 0.7161,
+      "gigapath_auroc": 0.4839,
+      "ensemble_auroc": 0.6323,
+      "ensemble_vs_best_single": -0.0839
+    },
+    {
+      "cell": "CHOL/Immune C3",
+      "tier": "exploratory",
+      "n": 35,
+      "n_pos": 17,
+      "uni2_auroc": 0.4739,
+      "gigapath_auroc": 0.3693,
+      "ensemble_auroc": 0.3987,
+      "ensemble_vs_best_single": -0.0752
+    },
+    {
+      "cell": "THYM/GTF2I",
+      "tier": "primary",
+      "n": 121,
+      "n_pos": 59,
+      "uni2_auroc": 0.9333,
+      "gigapath_auroc": 0.9024,
+      "ensemble_auroc": 0.9295,
+      "ensemble_vs_best_single": -0.0038
+    },
+    {
+      "cell": "THYM/TMB-high",
+      "tier": "primary",
+      "n": 120,
+      "n_pos": 31,
+      "uni2_auroc": 0.8282,
+      "gigapath_auroc": 0.7684,
+      "ensemble_auroc": 0.8097,
+      "ensemble_vs_best_single": -0.0185
+    },
+    {
+      "cell": "THYM/HRAS",
+      "tier": "exploratory",
+      "n": 98,
+      "n_pos": 9,
+      "uni2_auroc": 0.829,
+      "gigapath_auroc": 0.7728,
+      "ensemble_auroc": 0.819,
+      "ensemble_vs_best_single": -0.01
+    },
+    {
+      "cell": "KICH/TP53",
+      "tier": "primary",
+      "n": 66,
+      "n_pos": 21,
+      "uni2_auroc": 0.4413,
+      "gigapath_auroc": 0.3714,
+      "ensemble_auroc": 0.3905,
+      "ensemble_vs_best_single": -0.0508
+    },
+    {
+      "cell": "KICH/Aneuploidy-high",
+      "tier": "primary",
+      "n": 65,
+      "n_pos": 17,
+      "uni2_auroc": 0.6544,
+      "gigapath_auroc": 0.5882,
+      "ensemble_auroc": 0.6471,
+      "ensemble_vs_best_single": -0.0074
+    },
+    {
+      "cell": "KICH/Immune C3",
+      "tier": "primary",
+      "n": 65,
+      "n_pos": 38,
+      "uni2_auroc": 0.4854,
+      "gigapath_auroc": 0.4805,
+      "ensemble_auroc": 0.5234,
+      "ensemble_vs_best_single": 0.038
+    },
+    {
+      "cell": "KICH/MSI-H",
+      "tier": "exploratory",
+      "n": 55,
+      "n_pos": 7,
+      "uni2_auroc": 0.3869,
+      "gigapath_auroc": 0.4345,
+      "ensemble_auroc": 0.375,
+      "ensemble_vs_best_single": -0.0595
+    },
+    {
+      "cell": "DLBC/MSI-H",
+      "tier": "primary",
+      "n": 44,
+      "n_pos": 11,
+      "uni2_auroc": 0.9394,
+      "gigapath_auroc": 0.8953,
+      "ensemble_auroc": 0.9284,
+      "ensemble_vs_best_single": -0.011
+    },
+    {
+      "cell": "DLBC/TMB-high",
+      "tier": "primary",
+      "n": 37,
+      "n_pos": 10,
+      "uni2_auroc": 0.6037,
+      "gigapath_auroc": 0.7704,
+      "ensemble_auroc": 0.6111,
+      "ensemble_vs_best_single": -0.1593
+    },
+    {
+      "cell": "DLBC/Hans non-GCB",
+      "tier": "primary",
+      "n": 33,
+      "n_pos": 19,
+      "uni2_auroc": 0.5602,
+      "gigapath_auroc": 0.5338,
+      "ensemble_auroc": 0.5564,
+      "ensemble_vs_best_single": -0.0038
+    },
+    {
+      "cell": "DLBC/MYD88",
+      "tier": "primary",
+      "n": 44,
+      "n_pos": 5,
+      "uni2_auroc": 0.7897,
+      "gigapath_auroc": 0.8308,
+      "ensemble_auroc": 0.7949,
+      "ensemble_vs_best_single": -0.0359
+    },
+    {
+      "cell": "DLBC/Aneuploidy-high",
+      "tier": "primary",
+      "n": 43,
+      "n_pos": 14,
+      "uni2_auroc": 0.6823,
+      "gigapath_auroc": 0.697,
+      "ensemble_auroc": 0.7291,
+      "ensemble_vs_best_single": 0.032
+    },
+    {
+      "cell": "DLBC/TP53",
+      "tier": "exploratory",
+      "n": 27,
+      "n_pos": 5,
+      "uni2_auroc": 0.6636,
+      "gigapath_auroc": 0.6364,
+      "ensemble_auroc": 0.7545,
+      "ensemble_vs_best_single": 0.0909
+    }
+  ]
+}

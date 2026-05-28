@@ -1,0 +1,557 @@
+[
+  {
+    "cell": "DLBC/MSI-H",
+    "n": 44,
+    "n_errors": 5,
+    "overall_error_rate": 0.114,
+    "n_high_confidence_errors": 5,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-FF-8062",
+        "true_label": 1,
+        "predicted_proba": 0.001,
+        "tss": "FF",
+        "error_magnitude": 0.999
+      },
+      {
+        "patient_id": "TCGA-GR-7351",
+        "true_label": 1,
+        "predicted_proba": 0.474,
+        "tss": "GR",
+        "error_magnitude": 0.526
+      },
+      {
+        "patient_id": "TCGA-FF-8041",
+        "true_label": 0,
+        "predicted_proba": 0.515,
+        "tss": "FF",
+        "error_magnitude": 0.515
+      },
+      {
+        "patient_id": "TCGA-GR-7353",
+        "true_label": 1,
+        "predicted_proba": 0.488,
+        "tss": "GR",
+        "error_magnitude": 0.512
+      },
+      {
+        "patient_id": "TCGA-FA-8693",
+        "true_label": 0,
+        "predicted_proba": 0.51,
+        "tss": "FA",
+        "error_magnitude": 0.51
+      }
+    ],
+    "n_distinct_tss": 8,
+    "tss_enrichment_tests": [
+      {
+        "tss": "GS",
+        "n_patients": 10,
+        "n_errors": 0,
+        "error_rate": 0.0,
+        "fisher_p": 0.573
+      },
+      {
+        "tss": "FA",
+        "n_patients": 9,
+        "n_errors": 1,
+        "error_rate": 0.111,
+        "fisher_p": 1.0
+      },
+      {
+        "tss": "FF",
+        "n_patients": 7,
+        "n_errors": 2,
+        "error_rate": 0.286,
+        "fisher_p": 0.1729
+      }
+    ]
+  },
+  {
+    "cell": "THYM/GTF2I",
+    "n": 121,
+    "n_errors": 15,
+    "overall_error_rate": 0.124,
+    "n_high_confidence_errors": 15,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-4V-A9QL",
+        "true_label": 0,
+        "predicted_proba": 0.852,
+        "tss": "4V",
+        "error_magnitude": 0.852
+      },
+      {
+        "patient_id": "TCGA-XM-A8RE",
+        "true_label": 0,
+        "predicted_proba": 0.671,
+        "tss": "XM",
+        "error_magnitude": 0.671
+      },
+      {
+        "patient_id": "TCGA-ZT-A8OM",
+        "true_label": 0,
+        "predicted_proba": 0.658,
+        "tss": "ZT",
+        "error_magnitude": 0.658
+      },
+      {
+        "patient_id": "TCGA-4V-A9QM",
+        "true_label": 0,
+        "predicted_proba": 0.656,
+        "tss": "4V",
+        "error_magnitude": 0.656
+      },
+      {
+        "patient_id": "TCGA-ZB-A96G",
+        "true_label": 0,
+        "predicted_proba": 0.65,
+        "tss": "ZB",
+        "error_magnitude": 0.65
+      },
+      {
+        "patient_id": "TCGA-ZB-A963",
+        "true_label": 1,
+        "predicted_proba": 0.366,
+        "tss": "ZB",
+        "error_magnitude": 0.634
+      },
+      {
+        "patient_id": "TCGA-X7-A8M5",
+        "true_label": 1,
+        "predicted_proba": 0.379,
+        "tss": "X7",
+        "error_magnitude": 0.621
+      },
+      {
+        "patient_id": "TCGA-X7-A8M3",
+        "true_label": 0,
+        "predicted_proba": 0.595,
+        "tss": "X7",
+        "error_magnitude": 0.595
+      },
+      {
+        "patient_id": "TCGA-ZB-A96V",
+        "true_label": 1,
+        "predicted_proba": 0.425,
+        "tss": "ZB",
+        "error_magnitude": 0.575
+      },
+      {
+        "patient_id": "TCGA-4V-A9QX",
+        "true_label": 0,
+        "predicted_proba": 0.573,
+        "tss": "4V",
+        "error_magnitude": 0.573
+      }
+    ],
+    "n_distinct_tss": 19,
+    "tss_enrichment_tests": [
+      {
+        "tss": "ZB",
+        "n_patients": 23,
+        "n_errors": 6,
+        "error_rate": 0.261,
+        "fisher_p": 0.038
+      },
+      {
+        "tss": "XU",
+        "n_patients": 22,
+        "n_errors": 0,
+        "error_rate": 0.0,
+        "fisher_p": 0.0702
+      },
+      {
+        "tss": "X7",
+        "n_patients": 20,
+        "n_errors": 3,
+        "error_rate": 0.15,
+        "fisher_p": 0.7129
+      }
+    ]
+  },
+  {
+    "cell": "THYM/TMB-high",
+    "n": 120,
+    "n_errors": 28,
+    "overall_error_rate": 0.233,
+    "n_high_confidence_errors": 28,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-ZB-A96H",
+        "true_label": 0,
+        "predicted_proba": 0.818,
+        "tss": "ZB",
+        "error_magnitude": 0.818
+      },
+      {
+        "patient_id": "TCGA-4V-A9QN",
+        "true_label": 0,
+        "predicted_proba": 0.767,
+        "tss": "4V",
+        "error_magnitude": 0.767
+      },
+      {
+        "patient_id": "TCGA-XU-A92V",
+        "true_label": 1,
+        "predicted_proba": 0.287,
+        "tss": "XU",
+        "error_magnitude": 0.713
+      },
+      {
+        "patient_id": "TCGA-XU-A92T",
+        "true_label": 1,
+        "predicted_proba": 0.303,
+        "tss": "XU",
+        "error_magnitude": 0.697
+      },
+      {
+        "patient_id": "TCGA-3G-AB0Q",
+        "true_label": 0,
+        "predicted_proba": 0.693,
+        "tss": "3G",
+        "error_magnitude": 0.693
+      },
+      {
+        "patient_id": "TCGA-5G-A9ZZ",
+        "true_label": 0,
+        "predicted_proba": 0.68,
+        "tss": "5G",
+        "error_magnitude": 0.68
+      },
+      {
+        "patient_id": "TCGA-ZB-A96F",
+        "true_label": 0,
+        "predicted_proba": 0.657,
+        "tss": "ZB",
+        "error_magnitude": 0.657
+      },
+      {
+        "patient_id": "TCGA-4V-A9QJ",
+        "true_label": 1,
+        "predicted_proba": 0.383,
+        "tss": "4V",
+        "error_magnitude": 0.617
+      },
+      {
+        "patient_id": "TCGA-5K-AAAP",
+        "true_label": 0,
+        "predicted_proba": 0.596,
+        "tss": "5K",
+        "error_magnitude": 0.596
+      },
+      {
+        "patient_id": "TCGA-ZB-A96M",
+        "true_label": 1,
+        "predicted_proba": 0.405,
+        "tss": "ZB",
+        "error_magnitude": 0.595
+      }
+    ],
+    "n_distinct_tss": 19,
+    "tss_enrichment_tests": [
+      {
+        "tss": "ZB",
+        "n_patients": 23,
+        "n_errors": 5,
+        "error_rate": 0.217,
+        "fisher_p": 1.0
+      },
+      {
+        "tss": "XU",
+        "n_patients": 21,
+        "n_errors": 7,
+        "error_rate": 0.333,
+        "fisher_p": 0.2603
+      },
+      {
+        "tss": "X7",
+        "n_patients": 20,
+        "n_errors": 2,
+        "error_rate": 0.1,
+        "fisher_p": 0.1548
+      }
+    ]
+  },
+  {
+    "cell": "UVM/Chr3 loss",
+    "n": 52,
+    "n_errors": 14,
+    "overall_error_rate": 0.269,
+    "n_high_confidence_errors": 14,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-YZ-A985",
+        "true_label": 1,
+        "predicted_proba": 0.0,
+        "tss": "YZ",
+        "error_magnitude": 1.0
+      },
+      {
+        "patient_id": "TCGA-V4-A9ES",
+        "true_label": 1,
+        "predicted_proba": 0.004,
+        "tss": "V4",
+        "error_magnitude": 0.996
+      },
+      {
+        "patient_id": "TCGA-VD-A8KA",
+        "true_label": 0,
+        "predicted_proba": 0.951,
+        "tss": "VD",
+        "error_magnitude": 0.951
+      },
+      {
+        "patient_id": "TCGA-VD-AA8S",
+        "true_label": 0,
+        "predicted_proba": 0.943,
+        "tss": "VD",
+        "error_magnitude": 0.943
+      },
+      {
+        "patient_id": "TCGA-VD-A8KG",
+        "true_label": 1,
+        "predicted_proba": 0.094,
+        "tss": "VD",
+        "error_magnitude": 0.906
+      },
+      {
+        "patient_id": "TCGA-V4-A9F8",
+        "true_label": 1,
+        "predicted_proba": 0.296,
+        "tss": "V4",
+        "error_magnitude": 0.704
+      },
+      {
+        "patient_id": "TCGA-V4-A9EM",
+        "true_label": 0,
+        "predicted_proba": 0.643,
+        "tss": "V4",
+        "error_magnitude": 0.643
+      },
+      {
+        "patient_id": "TCGA-V4-A9ET",
+        "true_label": 0,
+        "predicted_proba": 0.622,
+        "tss": "V4",
+        "error_magnitude": 0.622
+      },
+      {
+        "patient_id": "TCGA-VD-A8KH",
+        "true_label": 1,
+        "predicted_proba": 0.392,
+        "tss": "VD",
+        "error_magnitude": 0.608
+      },
+      {
+        "patient_id": "TCGA-V4-A9EK",
+        "true_label": 0,
+        "predicted_proba": 0.587,
+        "tss": "V4",
+        "error_magnitude": 0.587
+      }
+    ],
+    "n_distinct_tss": 4,
+    "tss_enrichment_tests": [
+      {
+        "tss": "V4",
+        "n_patients": 28,
+        "n_errors": 7,
+        "error_rate": 0.25,
+        "fisher_p": 0.7635
+      },
+      {
+        "tss": "VD",
+        "n_patients": 19,
+        "n_errors": 5,
+        "error_rate": 0.263,
+        "fisher_p": 1.0
+      },
+      {
+        "tss": "YZ",
+        "n_patients": 3,
+        "n_errors": 2,
+        "error_rate": 0.667,
+        "fisher_p": 0.1729
+      }
+    ]
+  },
+  {
+    "cell": "UVM/EIF1AX",
+    "n": 80,
+    "n_errors": 17,
+    "overall_error_rate": 0.212,
+    "n_high_confidence_errors": 17,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-WC-A880",
+        "true_label": 1,
+        "predicted_proba": 0.025,
+        "tss": "WC",
+        "error_magnitude": 0.975
+      },
+      {
+        "patient_id": "TCGA-WC-A87W",
+        "true_label": 0,
+        "predicted_proba": 0.744,
+        "tss": "WC",
+        "error_magnitude": 0.744
+      },
+      {
+        "patient_id": "TCGA-VD-A8KN",
+        "true_label": 0,
+        "predicted_proba": 0.742,
+        "tss": "VD",
+        "error_magnitude": 0.742
+      },
+      {
+        "patient_id": "TCGA-YZ-A983",
+        "true_label": 0,
+        "predicted_proba": 0.664,
+        "tss": "YZ",
+        "error_magnitude": 0.664
+      },
+      {
+        "patient_id": "TCGA-WC-A87T",
+        "true_label": 0,
+        "predicted_proba": 0.561,
+        "tss": "WC",
+        "error_magnitude": 0.561
+      },
+      {
+        "patient_id": "TCGA-V4-A9F2",
+        "true_label": 0,
+        "predicted_proba": 0.557,
+        "tss": "V4",
+        "error_magnitude": 0.557
+      },
+      {
+        "patient_id": "TCGA-VD-AA8M",
+        "true_label": 0,
+        "predicted_proba": 0.554,
+        "tss": "VD",
+        "error_magnitude": 0.554
+      },
+      {
+        "patient_id": "TCGA-WC-A883",
+        "true_label": 0,
+        "predicted_proba": 0.553,
+        "tss": "WC",
+        "error_magnitude": 0.553
+      },
+      {
+        "patient_id": "TCGA-WC-AA9A",
+        "true_label": 0,
+        "predicted_proba": 0.545,
+        "tss": "WC",
+        "error_magnitude": 0.545
+      },
+      {
+        "patient_id": "TCGA-VD-A8KG",
+        "true_label": 0,
+        "predicted_proba": 0.545,
+        "tss": "VD",
+        "error_magnitude": 0.545
+      }
+    ],
+    "n_distinct_tss": 6,
+    "tss_enrichment_tests": [
+      {
+        "tss": "V4",
+        "n_patients": 33,
+        "n_errors": 3,
+        "error_rate": 0.091,
+        "fisher_p": 0.0293
+      },
+      {
+        "tss": "VD",
+        "n_patients": 25,
+        "n_errors": 5,
+        "error_rate": 0.2,
+        "fisher_p": 1.0
+      },
+      {
+        "tss": "WC",
+        "n_patients": 14,
+        "n_errors": 7,
+        "error_rate": 0.5,
+        "fisher_p": 0.0084
+      }
+    ]
+  },
+  {
+    "cell": "CHOL/IDH1",
+    "n": 39,
+    "n_errors": 6,
+    "overall_error_rate": 0.154,
+    "n_high_confidence_errors": 6,
+    "high_confidence_errors": [
+      {
+        "patient_id": "TCGA-W5-AA36",
+        "true_label": 1,
+        "predicted_proba": 0.45,
+        "tss": "W5",
+        "error_magnitude": 0.55
+      },
+      {
+        "patient_id": "TCGA-W5-AA2G",
+        "true_label": 1,
+        "predicted_proba": 0.459,
+        "tss": "W5",
+        "error_magnitude": 0.541
+      },
+      {
+        "patient_id": "TCGA-YR-A95A",
+        "true_label": 1,
+        "predicted_proba": 0.472,
+        "tss": "YR",
+        "error_magnitude": 0.528
+      },
+      {
+        "patient_id": "TCGA-W5-AA38",
+        "true_label": 0,
+        "predicted_proba": 0.52,
+        "tss": "W5",
+        "error_magnitude": 0.52
+      },
+      {
+        "patient_id": "TCGA-W6-AA0T",
+        "true_label": 0,
+        "predicted_proba": 0.507,
+        "tss": "W6",
+        "error_magnitude": 0.507
+      },
+      {
+        "patient_id": "TCGA-W5-AA2Z",
+        "true_label": 0,
+        "predicted_proba": 0.501,
+        "tss": "W5",
+        "error_magnitude": 0.501
+      }
+    ],
+    "n_distinct_tss": 9,
+    "tss_enrichment_tests": [
+      {
+        "tss": "W5",
+        "n_patients": 18,
+        "n_errors": 4,
+        "error_rate": 0.222,
+        "fisher_p": 0.3867
+      },
+      {
+        "tss": "ZH",
+        "n_patients": 8,
+        "n_errors": 0,
+        "error_rate": 0.0,
+        "fisher_p": 0.3133
+      },
+      {
+        "tss": "3X",
+        "n_patients": 5,
+        "n_errors": 0,
+        "error_rate": 0.0,
+        "fisher_p": 0.5736
+      }
+    ]
+  }
+]
