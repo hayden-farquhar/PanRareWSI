@@ -65,7 +65,11 @@ def build_heatmap(project_root: Path | None = None):
             # Significance marker
             star = " *" if sig else ""
             label = f"{cell['biomarker']}{star}\n{auroc:.2f}\n[{ci[0]:.2f},{ci[1]:.2f}]"
-            txt_color = "white" if (auroc > 0.82 or auroc < 0.5) else "black"
+            # Choose text colour from the cell's background luminance so that pale
+            # near-chance cells (light yellow) get dark text rather than white.
+            r, g, b = color[:3]
+            luminance = 0.299 * r + 0.587 * g + 0.114 * b
+            txt_color = "white" if luminance < 0.5 else "black"
             ax.text(col_idx + 0.5, max_rows - 1 - row_idx + 0.5, label,
                     ha="center", va="center", fontsize=6.5, color=txt_color,
                     fontweight="bold" if tier == "primary" else "normal")
