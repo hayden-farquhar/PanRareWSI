@@ -9,11 +9,11 @@ ORCID: [0009-0002-6226-440X](https://orcid.org/0009-0002-6226-440X)
 
 - **Pre-registration:** https://doi.org/10.17605/OSF.IO/Y6HVP
 - **OSF project:** https://osf.io/dqp6r/
-- **Preprint:** to be posted
+- **Preprint:** https://doi.org/10.5281/zenodo.20427794
 
 ## Overview
 
-This study benchmarks frozen pathology foundation-model slide embeddings (UNI2-h as the primary model; Prov-GigaPath as a comparison) for predicting molecular biomarkers from H&E histology across seven rare TCGA cohorts (ACC, UVM, MESO, CHOL, THYM, KICH, DLBC; 524 patients with matched embeddings and labels) that existing foundation-model benchmarks omit. Every analysis is pre-registered. The deliverable is a calibrated, FDR-controlled "recoverability map" — which cohort × biomarker cells are recoverable, inconclusive, or not recoverable — rather than a single headline performance figure.
+This study benchmarks frozen pathology foundation-model slide embeddings (UNI2-h as the primary model; Prov-GigaPath as a comparison) for predicting molecular biomarkers from H&E histology across seven rare TCGA cohorts (ACC, UVM, MESO, CHOL, THYM, KICH, DLBC; 524 patients with matched embeddings and labels) that existing foundation-model benchmarks omit. Every analysis is pre-registered. The deliverable is a calibrated, FDR-controlled "recoverability map" — which cohort × biomarker cells are recoverable and which are indeterminate at these sample sizes — rather than a single headline performance figure.
 
 This repository contains the analysis code and the derived outputs needed to reproduce every number, table, and figure in the paper. It does **not** contain the foundation-model embeddings themselves (see *Data Sources*).
 
@@ -144,7 +144,7 @@ If you use this code or the released data, please cite the accompanying paper an
 ```
 Farquhar H. What pathology foundation models can and cannot recover from H&E in
 rare cancers: a pre-registered molecular-biomarker benchmark across seven TCGA
-cohorts. Preprint (to be posted). Pre-registration: https://doi.org/10.17605/OSF.IO/Y6HVP
+cohorts. Preprint: https://doi.org/10.5281/zenodo.20427794. Pre-registration: https://doi.org/10.17605/OSF.IO/Y6HVP
 ```
 
 ## License
